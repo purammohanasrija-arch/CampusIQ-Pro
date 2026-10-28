@@ -1,0 +1,6 @@
+{
+  "name": "CampusIQ Pro",
+  "description": "Advanced Smart Student Management & Campus Intelligence Platform with QR verification, digital ID, smart library, canteen, gate pass, attendance, and AI student advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

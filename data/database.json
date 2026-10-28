@@ -1,0 +1,2090 @@
+{
+  "currentUserRole": "Security Staff",
+  "currentUserId": "USR-08",
+  "users": [
+    {
+      "id": "USR-01",
+      "name": "Dr. Sarah Jenkins",
+      "role": "Super Administrator",
+      "email": "director@campusiq.edu",
+      "department": "Executive Directorate",
+      "designation": "Campus Director",
+      "roomNumber": "Room NB-301"
+    },
+    {
+      "id": "USR-02",
+      "name": "Prof. Arthur Davies",
+      "role": "College Administrator",
+      "email": "dean@campusiq.edu",
+      "department": "Academic Affairs",
+      "designation": "Dean of Academics & Warden",
+      "roomNumber": "Room NB-101"
+    },
+    {
+      "id": "USR-03",
+      "name": "Dr. Elena Chen",
+      "role": "Faculty",
+      "email": "elena.chen@campusiq.edu",
+      "department": "Computer Science & Engineering",
+      "designation": "Professor & Head of Department",
+      "roomNumber": "Room NB-201"
+    },
+    {
+      "id": "USR-04",
+      "name": "Aarav Sharma",
+      "role": "Student",
+      "email": "aarav.sharma@student.campusiq.edu",
+      "department": "Computer Science",
+      "rollNumber": "241FA04001",
+      "roomNumber": "Room NB-101"
+    },
+    {
+      "id": "USR-05",
+      "name": "Marcus Bell",
+      "role": "Librarian",
+      "email": "library@campusiq.edu",
+      "department": "Central Library",
+      "designation": "Head Librarian",
+      "roomNumber": "Room NB-104 (Library Wing)"
+    },
+    {
+      "id": "USR-06",
+      "name": "Vikram Mehta",
+      "role": "Lab Technician",
+      "email": "labtech@campusiq.edu",
+      "department": "Robotics & IoT",
+      "designation": "Senior Lab Instructor",
+      "roomNumber": "Room NB-305 (Robotics Lab)"
+    },
+    {
+      "id": "USR-07",
+      "name": "Chef Mario Rossi",
+      "role": "Canteen Staff",
+      "email": "canteen@campusiq.edu",
+      "department": "Campus Dining",
+      "designation": "Dining Facility Manager",
+      "roomNumber": "Room NB-G02 (Cafeteria)"
+    },
+    {
+      "id": "USR-08",
+      "name": "Chief Jackson Reed",
+      "role": "Security Staff",
+      "email": "security@campusiq.edu",
+      "department": "Campus Security",
+      "designation": "Chief Security Officer",
+      "roomNumber": "Room NB-G01 (Security Post)"
+    },
+    {
+      "id": "USR-09",
+      "name": "Priya Nambiar",
+      "role": "Event Organizer",
+      "email": "events@campusiq.edu",
+      "department": "Student Council",
+      "designation": "Cultural Secretary",
+      "roomNumber": "Room NB-108 (Council Hall)"
+    },
+    {
+      "id": "USR-10",
+      "name": "Dr. Robert Thorne",
+      "role": "Examination Staff",
+      "email": "coe@campusiq.edu",
+      "department": "Controller of Exams",
+      "designation": "Controller of Examinations",
+      "roomNumber": "Room NB-105 (Exam Confidential Room)"
+    },
+    {
+      "id": "USR-11",
+      "name": "Dr. Sophia Vance",
+      "role": "Project Judge",
+      "email": "sophia.vance@techpartner.com",
+      "department": "Industry Advisory Board",
+      "designation": "Industry Tech Fellow",
+      "roomNumber": "Room NB-206"
+    },
+    {
+      "id": "USR-12",
+      "name": "Prof. David Miller",
+      "role": "Faculty",
+      "email": "david.miller@campusiq.edu",
+      "department": "Electronics & Communication",
+      "designation": "Associate Professor",
+      "roomNumber": "Room NB-204"
+    },
+    {
+      "id": "USR-13",
+      "name": "Prof. Meera Kulkarni",
+      "role": "Faculty",
+      "email": "meera.k@campusiq.edu",
+      "department": "Artificial Intelligence & ML",
+      "designation": "Professor & Lab Director",
+      "roomNumber": "Room NB-202"
+    },
+    {
+      "id": "USR-14",
+      "name": "Dr. Rajesh Sundaram",
+      "role": "Faculty",
+      "email": "rajesh.s@campusiq.edu",
+      "department": "Mechanical & Robotics",
+      "designation": "Professor & Research Chair",
+      "roomNumber": "Room NB-305"
+    },
+    {
+      "id": "USR-15",
+      "name": "Prof. Sunita Sharma",
+      "role": "Faculty",
+      "email": "sunita.s@campusiq.edu",
+      "department": "Mathematics & Computing",
+      "designation": "Assistant Professor",
+      "roomNumber": "Room NB-102"
+    },
+    {
+      "id": "USR-16",
+      "name": "Dr. Michael Chang",
+      "role": "Faculty",
+      "email": "michael.c@campusiq.edu",
+      "department": "Cybersecurity",
+      "designation": "Professor",
+      "roomNumber": "Room NB-205"
+    },
+    {
+      "id": "USR-17",
+      "name": "Prof. Anita Desai",
+      "role": "Faculty",
+      "email": "anita.d@campusiq.edu",
+      "department": "IoT & Embedded Systems",
+      "designation": "Associate Professor",
+      "roomNumber": "Room NB-203"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-2024-001",
+      "rollNumber": "241FA04001",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@student.campusiq.edu",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CS (AI & Data Systems)",
+      "year": "3rd Year",
+      "semester": "Semester VI",
+      "gpa": 3.88,
+      "attendancePercentage": 88.5,
+      "bloodGroup": "O+ve",
+      "emergencyContact": "+1 (555) 234-5678",
+      "photo": "/src/assets/images/student_aarav_sharma.jpg",
+      "rfidTag": "NFC-241FA04001-CS",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2024-08-15",
+      "idCardExpiryDate": "2027-06-30",
+      "qrToken": "CIQ-STUID-241FA04001-9F2B81",
+      "mentor": "Dr. Elena Chen (Room NB-201)",
+      "walletBalance": 37.3
+    },
+    {
+      "id": "STU-2024-002",
+      "rollNumber": "241FA04002",
+      "name": "Maya Lin",
+      "email": "maya.lin@student.campusiq.edu",
+      "department": "Electronics & Communication",
+      "course": "B.Tech ECE",
+      "year": "3rd Year",
+      "semester": "Semester VI",
+      "gpa": 3.75,
+      "attendancePercentage": 92,
+      "bloodGroup": "B+ve",
+      "emergencyContact": "+1 (555) 876-5432",
+      "photo": "/src/assets/images/student_maya_lin.jpg",
+      "rfidTag": "NFC-241FA04002-EC",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2024-08-15",
+      "idCardExpiryDate": "2027-06-30",
+      "qrToken": "CIQ-STUID-241FA04002-3A1D7B",
+      "mentor": "Prof. David Miller (Room NB-204)"
+    },
+    {
+      "id": "STU-2024-003",
+      "rollNumber": "241FA04003",
+      "name": "Rohan Patel",
+      "email": "rohan.patel@student.campusiq.edu",
+      "department": "Mechanical & Mechatronics",
+      "course": "B.Tech Robotics",
+      "year": "4th Year",
+      "semester": "Semester VIII",
+      "gpa": 3.62,
+      "attendancePercentage": 74.2,
+      "bloodGroup": "A+ve",
+      "emergencyContact": "+1 (555) 345-6789",
+      "photo": "/src/assets/images/student_rohan_patel.jpg",
+      "rfidTag": "NFC-241FA04003-ME",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2023-08-10",
+      "idCardExpiryDate": "2026-06-30",
+      "qrToken": "CIQ-STUID-241FA04003-7B4F90",
+      "mentor": "Dr. Rajesh Sundaram (Room NB-305)"
+    },
+    {
+      "id": "STU-2024-004",
+      "rollNumber": "241FA04004",
+      "name": "Zoe Washington",
+      "email": "zoe.w@student.campusiq.edu",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CS (Cybersecurity)",
+      "year": "2nd Year",
+      "semester": "Semester IV",
+      "gpa": 3.92,
+      "attendancePercentage": 95.8,
+      "bloodGroup": "AB+ve",
+      "emergencyContact": "+1 (555) 456-7890",
+      "photo": "/src/assets/images/student_zoe_washington.jpg",
+      "rfidTag": "NFC-241FA04004-CS",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2025-08-15",
+      "idCardExpiryDate": "2028-06-30",
+      "qrToken": "CIQ-STUID-241FA04004-1C2D3E",
+      "mentor": "Dr. Michael Chang (Room NB-205)"
+    },
+    {
+      "id": "STU-2024-005",
+      "rollNumber": "241FA04005",
+      "name": "Karan Verma",
+      "email": "karan.verma@student.campusiq.edu",
+      "department": "Electrical & Electronics",
+      "course": "B.Tech EEE (Smart Grids)",
+      "year": "3rd Year",
+      "semester": "Semester VI",
+      "gpa": 3.71,
+      "attendancePercentage": 86.4,
+      "bloodGroup": "O-ve",
+      "emergencyContact": "+1 (555) 567-8901",
+      "photo": "/src/assets/images/student_karan_verma.jpg",
+      "rfidTag": "NFC-241FA04005-EE",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2024-08-15",
+      "idCardExpiryDate": "2027-06-30",
+      "qrToken": "CIQ-STUID-241FA04005-4D5E6F",
+      "mentor": "Prof. Anita Desai (Room NB-203)"
+    },
+    {
+      "id": "STU-2024-006",
+      "rollNumber": "241FA04015",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@student.campusiq.edu",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech Data Science",
+      "year": "3rd Year",
+      "semester": "Semester VI",
+      "gpa": 3.95,
+      "attendancePercentage": 94.2,
+      "bloodGroup": "A+ve",
+      "emergencyContact": "+1 (555) 678-9012",
+      "photo": "/src/assets/images/student_ananya_iyer.jpg",
+      "rfidTag": "NFC-241FA04015-DS",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2024-08-15",
+      "idCardExpiryDate": "2027-06-30",
+      "qrToken": "CIQ-STUID-241FA04015-8A9B0C",
+      "mentor": "Prof. Meera Kulkarni (Room NB-202)"
+    },
+    {
+      "id": "STU-2024-007",
+      "rollNumber": "241FA04042",
+      "name": "Vikramaditya Rao",
+      "email": "vikram.rao@student.campusiq.edu",
+      "department": "Mechanical & Mechatronics",
+      "course": "B.Tech Automation",
+      "year": "2nd Year",
+      "semester": "Semester IV",
+      "gpa": 3.68,
+      "attendancePercentage": 89,
+      "bloodGroup": "B+ve",
+      "emergencyContact": "+1 (555) 789-0123",
+      "photo": "/src/assets/images/student_vikramaditya_rao.jpg",
+      "rfidTag": "NFC-241FA04042-ME",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2025-08-15",
+      "idCardExpiryDate": "2028-06-30",
+      "qrToken": "CIQ-STUID-241FA04042-3E4F5A",
+      "mentor": "Dr. Rajesh Sundaram (Room NB-305)"
+    },
+    {
+      "id": "STU-2024-008",
+      "rollNumber": "241FA04331",
+      "name": "Vamsi Uppalapati",
+      "email": "vu.241fa04331@gmail.com",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CS (AI & Autonomous Systems)",
+      "year": "3rd Year",
+      "semester": "Semester VI",
+      "gpa": 3.96,
+      "attendancePercentage": 96.5,
+      "bloodGroup": "O+ve",
+      "emergencyContact": "+1 (555) 890-1234",
+      "photo": "/src/assets/images/student_vamsi_uppalapati.jpg",
+      "rfidTag": "NFC-241FA04331-CS",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2024-08-15",
+      "idCardExpiryDate": "2027-06-30",
+      "qrToken": "CIQ-STUID-241FA04331-7C8D9E",
+      "mentor": "Dr. Elena Chen (Room NB-201)"
+    },
+    {
+      "id": "STU-2024-009",
+      "rollNumber": "241FA04088",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@student.campusiq.edu",
+      "department": "Biotechnology & Bioinformatics",
+      "course": "B.Tech Bioengineering",
+      "year": "4th Year",
+      "semester": "Semester VIII",
+      "gpa": 3.84,
+      "attendancePercentage": 91,
+      "bloodGroup": "AB+ve",
+      "emergencyContact": "+1 (555) 901-2345",
+      "photo": "/src/assets/images/student_sneha_reddy.jpg",
+      "rfidTag": "NFC-241FA04088-BT",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2023-08-10",
+      "idCardExpiryDate": "2026-06-30",
+      "qrToken": "CIQ-STUID-241FA04088-2B3C4D",
+      "mentor": "Prof. Sunita Sharma (Room NB-102)"
+    },
+    {
+      "id": "STU-2024-010",
+      "rollNumber": "241FA04099",
+      "name": "Rahul Deshmukh",
+      "email": "rahul.deshmukh@student.campusiq.edu",
+      "department": "Civil & Infrastructure Engineering",
+      "course": "B.Tech Smart Infrastructure",
+      "year": "3rd Year",
+      "semester": "Semester VI",
+      "gpa": 3.58,
+      "attendancePercentage": 84.5,
+      "bloodGroup": "A-ve",
+      "emergencyContact": "+1 (555) 012-3456",
+      "photo": "/src/assets/images/student_rahul_deshmukh.jpg",
+      "rfidTag": "NFC-241FA04099-CE",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2024-08-15",
+      "idCardExpiryDate": "2027-06-30",
+      "qrToken": "CIQ-STUID-241FA04099-5F6A7B",
+      "mentor": "Prof. Arthur Davies (Room NB-101)"
+    },
+    {
+      "id": "STU-2024-011",
+      "rollNumber": "CS-2018-2006",
+      "name": "srija",
+      "email": "srija@student.campusiq.edu",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech CS (AI & Data Systems)",
+      "year": "1st Year",
+      "semester": "Semester I",
+      "gpa": 3.5,
+      "attendancePercentage": 100,
+      "bloodGroup": "O+ve",
+      "emergencyContact": "+1 (555) 292-2700",
+      "photo": "/src/assets/images/student_srija_devi.jpg",
+      "rfidTag": "NFC-292270",
+      "idCardStatus": "Active",
+      "idCardIssuedDate": "2024-08-15",
+      "idCardExpiryDate": "2028-06-30",
+      "qrToken": "CIQ-STUID-CS-2018-2006-SRIJA",
+      "mentor": "Dr. Elena Chen (Room NB-201)"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-2026-01",
+      "title": "National AI & Autonomous Robotics Hackathon 2026",
+      "category": "Hackathon",
+      "description": "36-hour sprint building real-world AI applications, robotics firmware, and autonomous sensor networks.",
+      "date": "2026-11-12",
+      "time": "09:00 AM - 09:00 PM",
+      "venue": "Turing Innovation Complex, Hall B",
+      "capacity": 150,
+      "registeredCount": 124,
+      "checkedInCount": 42,
+      "eligibility": "All Engineering & Technology Students",
+      "registrationDeadline": "2026-11-10",
+      "organizer": "Dr. Elena Chen (Student Innovation Council)",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-01-MASTER",
+      "bannerUrl": "/src/assets/images/event_ai_robotics_hackathon.jpg"
+    },
+    {
+      "id": "EVT-2026-02",
+      "title": "Symposium on Next-Gen Sustainable Clean Energy",
+      "category": "Seminar",
+      "description": "Keynotes from prominent battery scientists, hydrogen fuel engineers, and smart grid architects.",
+      "date": "2026-11-18",
+      "time": "10:00 AM - 04:00 PM",
+      "venue": "Main Auditorium & Gallery",
+      "capacity": 300,
+      "registeredCount": 215,
+      "checkedInCount": 0,
+      "eligibility": "Open to All Students & Faculty",
+      "registrationDeadline": "2026-11-16",
+      "organizer": "Mechanical Engineering Department",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-02-MASTER",
+      "bannerUrl": "/src/assets/images/event_clean_energy_symposium.jpg"
+    },
+    {
+      "id": "EVT-2026-03",
+      "title": "Annual Cultural Kaleidoscope & Music Fest",
+      "category": "Cultural Fest",
+      "description": "Inter-collegiate arts, battle of the bands, classical dance fusion, and drama showcase.",
+      "date": "2026-12-05",
+      "time": "04:00 PM - 10:30 PM",
+      "venue": "Campus Open Air Amphitheatre",
+      "capacity": 800,
+      "registeredCount": 640,
+      "checkedInCount": 0,
+      "eligibility": "Valid College ID Required",
+      "registrationDeadline": "2026-12-03",
+      "organizer": "Cultural Activities Board",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-03-MASTER",
+      "bannerUrl": "/src/assets/images/event_cultural_music_fest.jpg"
+    },
+    {
+      "id": "EVT-2026-04",
+      "title": "Global Tech Career Expo & Fortune 500 Placement Drive",
+      "category": "Career Fair",
+      "description": "Tier-1 tech firms, quant desks, cloud hyperscalers, and deep-tech startups recruiting for SWE, AI & Quant internships.",
+      "date": "2026-11-25",
+      "time": "10:00 AM - 05:00 PM",
+      "venue": "Student Union Grand Hall & Atrium",
+      "capacity": 600,
+      "registeredCount": 512,
+      "checkedInCount": 0,
+      "eligibility": "Pre-Final & Final Year Engineering Students",
+      "registrationDeadline": "2026-11-23",
+      "organizer": "Campus Training & Placement Cell",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-04-MASTER",
+      "bannerUrl": "/src/assets/images/event_career_expo.jpg"
+    },
+    {
+      "id": "EVT-2026-05",
+      "title": "Inter-Collegiate Esports Arena & Valorant Championship",
+      "category": "Esports",
+      "description": "High-octane collegiate gaming tournament with live spectator casting, VR gaming showcase, and prize pool.",
+      "date": "2026-11-30",
+      "time": "01:00 PM - 09:00 PM",
+      "venue": "E-Sports Complex, Cyberspace Hub",
+      "capacity": 250,
+      "registeredCount": 238,
+      "checkedInCount": 0,
+      "eligibility": "All Enrolled College Gamers",
+      "registrationDeadline": "2026-11-28",
+      "organizer": "Campus Gaming & Interactive Media Society",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-05-MASTER",
+      "bannerUrl": "/src/assets/images/event_esports_arena.jpg"
+    },
+    {
+      "id": "EVT-2026-06",
+      "title": "BioTech Frontiers: CRISPR & Neuroscience Summit",
+      "category": "Conference",
+      "description": "Cutting-edge symposium exploring CRISPR gene-therapeutics, neural interfaces, and computational biomedicine.",
+      "date": "2026-12-10",
+      "time": "09:30 AM - 04:30 PM",
+      "venue": "Franklin Bioengineering Pavilion, Hall A",
+      "capacity": 200,
+      "registeredCount": 165,
+      "checkedInCount": 0,
+      "eligibility": "Biotech, CS & Health Sciences Students",
+      "registrationDeadline": "2026-12-08",
+      "organizer": "Biotechnology & Bioinformatics Dept",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-06-MASTER",
+      "bannerUrl": "/src/assets/images/event_biotech_summit.jpg"
+    },
+    {
+      "id": "EVT-2026-07",
+      "title": "Campus Venture Shark Tank & Angel Pitch Summit",
+      "category": "Startup Summit",
+      "description": "Top 12 student startups pitch live before venture capital partners and angel investors for $100k seed funding.",
+      "date": "2026-12-15",
+      "time": "02:00 PM - 07:00 PM",
+      "venue": "Venture Center Auditorium, Room NB-301",
+      "capacity": 350,
+      "registeredCount": 310,
+      "checkedInCount": 0,
+      "eligibility": "Open to All Campus Innovators & Founders",
+      "registrationDeadline": "2026-12-13",
+      "organizer": "Innovation & Incubation Hub",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-07-MASTER",
+      "bannerUrl": "/src/assets/images/event_startup_pitch.jpg"
+    },
+    {
+      "id": "EVT-2026-08",
+      "title": "Night Sky Astro-Observation & Deep Space Gala",
+      "category": "Stargazing",
+      "description": "Guided telescope night viewing Saturn rings, Orion Nebula, and deep-space celestial imaging with astrophysics faculty.",
+      "date": "2026-12-20",
+      "time": "07:30 PM - 11:30 PM",
+      "venue": "Campus Rooftop Observatory & Star Dome",
+      "capacity": 180,
+      "registeredCount": 172,
+      "checkedInCount": 0,
+      "eligibility": "Open to Astronomy Enthusiasts",
+      "registrationDeadline": "2026-12-18",
+      "organizer": "Astronomy & Space Exploration Club",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-08-MASTER",
+      "bannerUrl": "/src/assets/images/event_astronomy_night.jpg"
+    },
+    {
+      "id": "EVT-2026-09",
+      "title": "All-Campus Sports Olympiad & Track Meet",
+      "category": "Sports",
+      "description": "Annual university sports showdown featuring 100m sprint, relay championships, football, badminton, and basketball finals.",
+      "date": "2027-01-10",
+      "time": "08:00 AM - 06:00 PM",
+      "venue": "University Athletics Stadium & Olympic Track",
+      "capacity": 1000,
+      "registeredCount": 780,
+      "checkedInCount": 0,
+      "eligibility": "All Registered Student Athletes",
+      "registrationDeadline": "2027-01-08",
+      "organizer": "Department of Physical Education & Athletics",
+      "status": "Published",
+      "entryQRCode": "CIQ-EVENT-EVT-2026-09-MASTER",
+      "bannerUrl": "/src/assets/images/event_sports_olympiad.jpg"
+    }
+  ],
+  "eventRegistrations": [
+    {
+      "id": "REG-2026-881",
+      "eventId": "EVT-2026-01",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "registeredAt": "2026-10-20T14:30:00Z",
+      "qrPass": "CIQ-EVTPASS-REG-2026-881-A7E9",
+      "status": "Checked-In",
+      "checkedInAt": "2026-10-26T21:40:00Z",
+      "seatNumber": "Zone-A-Table-14"
+    },
+    {
+      "id": "REG-2026-882",
+      "eventId": "EVT-2026-02",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "registeredAt": "2026-10-22T09:15:00Z",
+      "qrPass": "CIQ-EVTPASS-REG-2026-882-9B3C",
+      "status": "Confirmed",
+      "checkedInAt": null,
+      "seatNumber": "Auditorium-Row-D-12"
+    }
+  ],
+  "exams": [
+    {
+      "id": "EXAM-2026-01",
+      "courseCode": "CS601",
+      "subjectName": "Distributed Systems & Cloud Computing",
+      "date": "2026-11-20",
+      "reportingTime": "09:00 AM",
+      "session": "Morning (09:30 AM - 12:30 PM)",
+      "department": "Computer Science",
+      "semester": "Semester VI",
+      "roomNumber": "Room NB-101",
+      "totalCandidates": 64,
+      "status": "Scheduled"
+    },
+    {
+      "id": "EXAM-2026-02",
+      "courseCode": "CS602",
+      "subjectName": "Advanced Machine Learning & Neural Networks",
+      "date": "2026-11-23",
+      "reportingTime": "09:00 AM",
+      "session": "Morning (09:30 AM - 12:30 PM)",
+      "department": "Computer Science",
+      "semester": "Semester VI",
+      "roomNumber": "Room NB-102",
+      "totalCandidates": 64,
+      "status": "Scheduled"
+    },
+    {
+      "id": "EXAM-2026-03",
+      "courseCode": "CS603",
+      "subjectName": "Compiler Design & Program Analysis",
+      "date": "2026-11-26",
+      "reportingTime": "01:30 PM",
+      "session": "Afternoon (02:00 PM - 05:00 PM)",
+      "department": "Computer Science",
+      "semester": "Semester VI",
+      "roomNumber": "Room NB-201",
+      "totalCandidates": 64,
+      "status": "Scheduled"
+    },
+    {
+      "id": "EXAM-2026-04",
+      "courseCode": "CS604",
+      "subjectName": "Cybersecurity, Cryptography & Digital Forensics",
+      "date": "2026-11-29",
+      "reportingTime": "09:00 AM",
+      "session": "Morning (09:30 AM - 12:30 PM)",
+      "department": "Computer Science",
+      "semester": "Semester VI",
+      "roomNumber": "Room NB-204",
+      "totalCandidates": 64,
+      "status": "Scheduled"
+    }
+  ],
+  "hallTickets": [
+    {
+      "id": "HT-2026-8812",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "examPeriod": "Autumn End-Semester 2026",
+      "department": "Computer Science & Engineering",
+      "roomNumber": "Room NB-101",
+      "seatNumber": "Desk D-23 (Row 2, Col 3)",
+      "examDates": [
+        {
+          "subject": "Distributed Systems (CS601)",
+          "date": "2026-11-20",
+          "time": "09:30 AM - 12:30 PM",
+          "room": "Room NB-101"
+        },
+        {
+          "subject": "Machine Learning (CS602)",
+          "date": "2026-11-23",
+          "time": "09:30 AM - 12:30 PM",
+          "room": "Room NB-102"
+        },
+        {
+          "subject": "Compiler Design (CS603)",
+          "date": "2026-11-26",
+          "time": "02:00 PM - 05:00 PM",
+          "room": "Room NB-201"
+        },
+        {
+          "subject": "Cybersecurity (CS604)",
+          "date": "2026-11-29",
+          "time": "09:30 AM - 12:30 PM",
+          "room": "Room NB-204"
+        }
+      ],
+      "issuedAt": "2026-10-24T10:00:00Z",
+      "qrToken": "CIQ-HTICKET-241FA04001-SECURE",
+      "eligibilityStatus": "Eligible (Attendance > 80%, No Disciplinary Hold)",
+      "verifiedAtGate": false
+    }
+  ],
+  "books": [
+    {
+      "id": "BK-101",
+      "isbn": "978-0131103627",
+      "title": "The C Programming Language (2nd Edition)",
+      "author": "Brian W. Kernighan, Dennis M. Ritchie",
+      "publisher": "Prentice Hall",
+      "category": "Computer Science",
+      "totalCopies": 12,
+      "availableCopies": 8,
+      "shelfLocation": "Stack CS-04-A",
+      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "qrCode": "CIQ-BOOK-BK-101-01"
+    },
+    {
+      "id": "BK-102",
+      "isbn": "978-0262033848",
+      "title": "Introduction to Algorithms (CLRS 3rd Edition)",
+      "author": "Thomas H. Cormen, Charles E. Leiserson",
+      "publisher": "MIT Press",
+      "category": "Algorithms",
+      "totalCopies": 20,
+      "availableCopies": 3,
+      "shelfLocation": "Stack CS-01-C",
+      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "qrCode": "CIQ-BOOK-BK-102-01"
+    },
+    {
+      "id": "BK-103",
+      "isbn": "978-0132350884",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "publisher": "Pearson",
+      "category": "Software Engineering",
+      "totalCopies": 8,
+      "availableCopies": 0,
+      "shelfLocation": "Stack CS-08-B",
+      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "qrCode": "CIQ-BOOK-BK-103-01"
+    },
+    {
+      "id": "BK-104",
+      "isbn": "978-0596007126",
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman, Elisabeth Robson",
+      "publisher": "O'Reilly Media",
+      "category": "Architecture",
+      "totalCopies": 10,
+      "availableCopies": 6,
+      "shelfLocation": "Stack CS-05-D",
+      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "qrCode": "CIQ-BOOK-BK-104-01"
+    }
+  ],
+  "bookLoans": [
+    {
+      "id": "LOAN-901",
+      "bookId": "BK-102",
+      "bookTitle": "Introduction to Algorithms (CLRS 3rd Edition)",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "issuedDate": "2026-10-10",
+      "dueDate": "2026-10-24",
+      "returnedDate": null,
+      "overdueDays": 2,
+      "fineAmount": 4,
+      "status": "Overdue",
+      "qrCode": "CIQ-LOAN-LOAN-901-5D2E"
+    },
+    {
+      "id": "LOAN-902",
+      "bookId": "BK-101",
+      "bookTitle": "The C Programming Language (2nd Edition)",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "issuedDate": "2026-10-20",
+      "dueDate": "2026-11-03",
+      "returnedDate": null,
+      "overdueDays": 0,
+      "fineAmount": 0,
+      "status": "Active",
+      "qrCode": "CIQ-LOAN-LOAN-902-1F4A"
+    }
+  ],
+  "labEquipment": [
+    {
+      "id": "LAB-EQ-01",
+      "assetId": "ROBO-ARM-04",
+      "name": "6-DOF Precision Robotic Arm Kit",
+      "category": "Robotics & Control",
+      "lab": "Robotics & Mechatronics Lab (R-204)",
+      "condition": "Optimal",
+      "status": "Available",
+      "allocatedTo": null,
+      "serialNumber": "SN-ROBO-99214",
+      "qrTag": "CIQ-EQUIP-LAB-EQ-01-ROBO"
+    },
+    {
+      "id": "LAB-EQ-02",
+      "assetId": "OSC-DIGI-12",
+      "name": "Keysight 200MHz Digital Storage Oscilloscope",
+      "category": "Instrumentation",
+      "lab": "VLSI & Circuit Design Lab (E-102)",
+      "condition": "Good",
+      "status": "Borrowed",
+      "allocatedTo": {
+        "studentId": "STU-2024-001",
+        "studentName": "Aarav Sharma",
+        "dueDate": "2026-10-28"
+      },
+      "serialNumber": "SN-KEYSIGHT-8821",
+      "qrTag": "CIQ-EQUIP-LAB-EQ-02-OSC"
+    },
+    {
+      "id": "LAB-EQ-03",
+      "assetId": "FPGA-ZYNQ-07",
+      "name": "Xilinx Zynq UltraScale+ MPSoC Board",
+      "category": "Embedded Systems",
+      "lab": "Embedded AI Lab (E-205)",
+      "condition": "Maintenance Required",
+      "status": "Under Maintenance",
+      "allocatedTo": null,
+      "serialNumber": "SN-XLNX-5401",
+      "qrTag": "CIQ-EQUIP-LAB-EQ-03-FPGA"
+    },
+    {
+      "id": "LAB-EQ-04",
+      "assetId": "GPU-SRV-02",
+      "name": "NVIDIA RTX 4090 Deep Learning Workbench",
+      "category": "High Performance Computing",
+      "lab": "AI Research Cluster (CS-401)",
+      "condition": "Optimal",
+      "status": "Available",
+      "allocatedTo": null,
+      "serialNumber": "SN-NV4090-1120",
+      "qrTag": "CIQ-EQUIP-LAB-EQ-04-GPU"
+    }
+  ],
+  "labRequests": [
+    {
+      "id": "REQ-LAB-441",
+      "equipmentId": "LAB-EQ-02",
+      "equipmentName": "Keysight 200MHz Digital Storage Oscilloscope",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "requestDate": "2026-10-21",
+      "purpose": "Capstone project high-frequency bus testing",
+      "status": "Approved",
+      "approvedBy": "Vikram Mehta (Lab Tech)",
+      "returnDueDate": "2026-10-28"
+    }
+  ],
+  "canteenMenu": [
+    {
+      "id": "CN-01",
+      "name": "Mediterranean Grilled Chicken & Grain Bowl",
+      "category": "Wholesome Bowls",
+      "description": "Seasoned grilled chicken breast, herb quinoa, roasted sweet potatoes, avocado, and tahini drizzle.",
+      "price": 7.5,
+      "available": true,
+      "dietary": "High Protein",
+      "image": "/src/assets/images/canteen_grilled_chicken_bowl.jpg",
+      "calories": 540,
+      "preparationTime": "6-8 mins",
+      "rating": 4.9
+    },
+    {
+      "id": "CN-02",
+      "name": "Paneer Tikka & Saffron Basmati Bowl",
+      "category": "Wholesome Bowls",
+      "description": "Tandoori marinated cottage cheese cubes, fragrant saffron cumin rice, charred peppers, and fresh mint chutney.",
+      "price": 6.8,
+      "available": true,
+      "dietary": "Vegetarian",
+      "image": "/src/assets/images/canteen_paneer_tikka_bowl.jpg",
+      "calories": 510,
+      "preparationTime": "7-9 mins",
+      "rating": 4.8
+    },
+    {
+      "id": "CN-03",
+      "name": "Teriyaki Glazed Salmon & Edamame Bowl",
+      "category": "Wholesome Bowls",
+      "description": "Pan-seared Atlantic salmon fillet, steamed edamame, pickled radish, sesame furikake, and brown rice.",
+      "price": 8.5,
+      "available": true,
+      "dietary": "Omega-3 Rich",
+      "image": "/src/assets/images/canteen_salmon_teriyaki_bowl.jpg",
+      "calories": 580,
+      "preparationTime": "8-10 mins",
+      "rating": 4.9
+    },
+    {
+      "id": "CN-04",
+      "name": "Roasted Butternut Squash & Puy Lentil Bowl",
+      "category": "Wholesome Bowls",
+      "description": "Baby spinach, caramelized pecans, roasted maple squash, organic green lentils, and pomegranate balsamic reduction.",
+      "price": 6.25,
+      "available": true,
+      "dietary": "Vegan",
+      "image": "/src/assets/images/canteen_harvest_squash_bowl.jpg",
+      "calories": 460,
+      "preparationTime": "5-7 mins",
+      "rating": 4.7
+    },
+    {
+      "id": "CN-05",
+      "name": "Artisan Sourdough Avocado & Egg Melt",
+      "category": "Quick Bites",
+      "description": "Fresh mashed Haas avocado, pasture-raised sunny egg, and melted sharp aged cheddar on toasted levain sourdough.",
+      "price": 5.25,
+      "available": true,
+      "dietary": "Vegetarian",
+      "image": "/src/assets/images/canteen_avocado_toast.jpg",
+      "calories": 420,
+      "preparationTime": "4-5 mins",
+      "rating": 4.8
+    },
+    {
+      "id": "CN-06",
+      "name": "Crispy Chipotle Cauliflower Tacos (3 pcs)",
+      "category": "Quick Bites",
+      "description": "Spiced crispy cauliflower florets, purple cabbage slaw, chipotle avocado crema, and pickled jalapeños on warm corn tortillas.",
+      "price": 4.95,
+      "available": true,
+      "dietary": "Vegan",
+      "image": "/src/assets/images/canteen_buffalo_tacos.jpg",
+      "calories": 390,
+      "preparationTime": "5-6 mins",
+      "rating": 4.7
+    },
+    {
+      "id": "CN-07",
+      "name": "Smoked Turkey & Truffle Fontina Panini",
+      "category": "Quick Bites",
+      "description": "Thin-sliced hickory smoked turkey breast, melted Alpine fontina, wild baby arugula, and black truffle aioli on grilled ciabatta.",
+      "price": 6.4,
+      "available": true,
+      "dietary": "Artisan",
+      "image": "/src/assets/images/canteen_turkey_panini.jpg",
+      "calories": 520,
+      "preparationTime": "6-7 mins",
+      "rating": 4.9
+    },
+    {
+      "id": "CN-08",
+      "name": "Crispy Herb Falafel Pita Pocket",
+      "category": "Quick Bites",
+      "description": "House-made Egyptian chickpea falafels, heirloom tomato salad, pickled turnip, and creamy garlic tahini in warm stoneground pita.",
+      "price": 4.8,
+      "available": true,
+      "dietary": "Vegan",
+      "image": "/src/assets/images/canteen_falafel_pita.jpg",
+      "calories": 440,
+      "preparationTime": "4-6 mins",
+      "rating": 4.8
+    },
+    {
+      "id": "CN-09",
+      "name": "Wood-Fired Margherita Pizza Slice",
+      "category": "Quick Bites",
+      "description": "Neapolitan style crust with San Marzano DOP tomato sauce, melted fior di latte mozzarella, and fresh organic sweet basil.",
+      "price": 3.95,
+      "available": true,
+      "dietary": "Vegetarian",
+      "image": "/src/assets/images/canteen_margherita_pizza.jpg",
+      "calories": 340,
+      "preparationTime": "3-5 mins",
+      "rating": 4.9
+    },
+    {
+      "id": "CN-10",
+      "name": "Organic Ceremonial Matcha Oat Latte",
+      "category": "Beverages",
+      "description": "First-harvest ceremonial grade Uji matcha whisked with velvety steamed oat milk and Madagascar agave nectar.",
+      "price": 3.75,
+      "available": true,
+      "dietary": "Vegan",
+      "image": "/src/assets/images/canteen_matcha_latte.jpg",
+      "calories": 160,
+      "preparationTime": "2-3 mins",
+      "rating": 4.8
+    },
+    {
+      "id": "CN-11",
+      "name": "Iced Madagascar Vanilla Cold Brew",
+      "category": "Beverages",
+      "description": "Single-origin Ethiopian beans steeped for 18 hours, infused with real vanilla bean and cold foam float.",
+      "price": 3.5,
+      "available": true,
+      "dietary": "Sugar-Free",
+      "image": "/src/assets/images/canteen_vanilla_cold_brew.jpg",
+      "calories": 90,
+      "preparationTime": "1-2 mins",
+      "rating": 4.9
+    },
+    {
+      "id": "CN-12",
+      "name": "Alphonso Mango Passionfruit Boba Fizz",
+      "category": "Beverages",
+      "description": "Pureed Indian Alphonso mango, passionfruit sparkling water, and bursting mango fruit juice popping boba pearls.",
+      "price": 4.25,
+      "available": true,
+      "dietary": "Refreshing",
+      "image": "/src/assets/images/canteen_mango_boba.jpg",
+      "calories": 210,
+      "preparationTime": "2-3 mins",
+      "rating": 4.9
+    },
+    {
+      "id": "CN-13",
+      "name": "Golden Turmeric Ginger Immunity Tonic",
+      "category": "Beverages",
+      "description": "Freshly cold-pressed raw turmeric root, ginger, organic lemon, black pepper extract, and wildflower raw honey.",
+      "price": 3.25,
+      "available": true,
+      "dietary": "Ayurvedic",
+      "image": "/src/assets/images/canteen_turmeric_tonic.jpg",
+      "calories": 85,
+      "preparationTime": "1-2 mins",
+      "rating": 4.7
+    },
+    {
+      "id": "CN-14",
+      "name": "Wild Berry Chia & Amazonian Acai Parfait",
+      "category": "Breakfast & Desserts",
+      "description": "Layered coconut-chia seed pudding, organic acai smoothie swirl, wild blueberries, and toasted hemp seed granola.",
+      "price": 4.5,
+      "available": true,
+      "dietary": "Gluten-Free",
+      "image": "/src/assets/images/canteen_acai_parfait.jpg",
+      "calories": 320,
+      "preparationTime": "2-3 mins",
+      "rating": 4.8
+    },
+    {
+      "id": "CN-15",
+      "name": "Golden Belgian Waffles with Maple Glaze",
+      "category": "Breakfast & Desserts",
+      "description": "Authentic malted Belgian waffle with caramelized pearl sugar, macerated strawberries, and warm Vermont maple syrup.",
+      "price": 5.2,
+      "available": true,
+      "dietary": "Gourmet",
+      "image": "/src/assets/images/canteen_belgian_waffle.jpg",
+      "calories": 480,
+      "preparationTime": "4-6 mins",
+      "rating": 4.9
+    },
+    {
+      "id": "CN-16",
+      "name": "Warm Dark Chocolate Molten Lava Cake",
+      "category": "Breakfast & Desserts",
+      "description": "Decadent 70% Valrhona dark chocolate cake with a molten truffle molten center, dusted with Dutch cocoa powder.",
+      "price": 4.85,
+      "available": true,
+      "dietary": "Indulgent",
+      "image": "/src/assets/images/canteen_chocolate_lava.jpg",
+      "calories": 490,
+      "preparationTime": "4-5 mins",
+      "rating": 5
+    }
+  ],
+  "canteenOrders": [
+    {
+      "id": "ORD-4521",
+      "orderNumber": "#4521",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "items": [
+        {
+          "menuItemId": "CN-02",
+          "name": "Paneer Tikka & Saffron Basmati Bowl",
+          "quantity": 1,
+          "unitPrice": 6.8
+        }
+      ],
+      "subtotal": 6.8,
+      "tax": 0.54,
+      "totalAmount": 7.34,
+      "paymentStatus": "Paid & Verified",
+      "paymentMethod": "Campus Smart ID Wallet (NFC)",
+      "transactionId": "TXN-CIQ-333824",
+      "status": "Placed",
+      "pickupToken": "CIQ-CANTEEN-ORD-4521-3748CBF0DC42",
+      "orderedAt": "2026-10-28T03:48:53.841Z",
+      "redeemed": false,
+      "notes": ""
+    },
+    {
+      "id": "ORD-8277",
+      "orderNumber": "#8277",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "items": [
+        {
+          "menuItemId": "CN-02",
+          "name": "Paneer Tikka & Saffron Basmati Bowl",
+          "quantity": 1,
+          "unitPrice": 6.8
+        }
+      ],
+      "subtotal": 6.8,
+      "tax": 0.54,
+      "totalAmount": 7.34,
+      "paymentStatus": "Paid & Verified",
+      "paymentMethod": "Campus Smart ID Wallet (NFC)",
+      "transactionId": "TXN-CIQ-668669",
+      "status": "Placed",
+      "pickupToken": "CIQ-CANTEEN-ORD-8277-5D200E4981C8",
+      "orderedAt": "2026-10-28T03:04:28.674Z",
+      "redeemed": false,
+      "notes": ""
+    },
+    {
+      "id": "ORD-8223",
+      "orderNumber": "#8223",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "items": [
+        {
+          "menuItemId": "CN-02",
+          "name": "Paneer Tikka & Saffron Basmati Bowl",
+          "quantity": 1,
+          "unitPrice": 6.8
+        },
+        {
+          "menuItemId": "CN-12",
+          "name": "Alphonso Mango Passionfruit Boba Fizz",
+          "quantity": 2,
+          "unitPrice": 4.25
+        }
+      ],
+      "subtotal": 15.3,
+      "tax": 1.22,
+      "totalAmount": 16.52,
+      "paymentStatus": "Paid & Verified",
+      "paymentMethod": "Campus Smart ID Wallet (NFC)",
+      "transactionId": "TXN-TEST-9921",
+      "status": "Placed",
+      "pickupToken": "CIQ-CANTEEN-ORD-8223-E4B6421A58C9",
+      "orderedAt": "2026-10-28T02:57:36.791Z",
+      "redeemed": false,
+      "notes": "Extra mint chutney please"
+    },
+    {
+      "id": "ORD-8921",
+      "orderNumber": "#8921",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "items": [
+        {
+          "menuItemId": "CN-01",
+          "name": "Mediterranean Grilled Chicken & Grain Bowl",
+          "quantity": 1,
+          "unitPrice": 7.5
+        },
+        {
+          "menuItemId": "CN-10",
+          "name": "Organic Ceremonial Matcha Oat Latte",
+          "quantity": 1,
+          "unitPrice": 3.75
+        }
+      ],
+      "subtotal": 11.25,
+      "tax": 0.9,
+      "totalAmount": 12.15,
+      "paymentStatus": "Paid & Verified",
+      "paymentMethod": "Campus Smart ID Wallet",
+      "transactionId": "TXN-CIQ-981240",
+      "status": "Ready",
+      "pickupToken": "CIQ-CANTEEN-ORD-8921-READY",
+      "orderedAt": "2026-10-27T18:29:55.435Z",
+      "redeemed": false
+    },
+    {
+      "id": "ORD-8922",
+      "orderNumber": "#8922",
+      "studentId": "STU-2024-002",
+      "studentName": "Maya Lin",
+      "items": [
+        {
+          "menuItemId": "CN-05",
+          "name": "Artisan Sourdough Avocado & Egg Melt",
+          "quantity": 1,
+          "unitPrice": 5.25
+        },
+        {
+          "menuItemId": "CN-11",
+          "name": "Iced Madagascar Vanilla Cold Brew",
+          "quantity": 1,
+          "unitPrice": 3.5
+        }
+      ],
+      "subtotal": 8.75,
+      "tax": 0.7,
+      "totalAmount": 9.45,
+      "paymentStatus": "Paid & Verified",
+      "paymentMethod": "UPI Instant Pay (Google Pay)",
+      "transactionId": "TXN-UPI-481920",
+      "status": "Preparing",
+      "pickupToken": "CIQ-CANTEEN-ORD-8922-PREP",
+      "orderedAt": "2026-10-27T18:36:55.435Z",
+      "redeemed": false
+    }
+  ],
+  "gatePasses": [
+    {
+      "id": "GP-2026-042",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "CS-2024-089",
+      "reason": "Authorized Attendance at Regional IEEE Robotics Conference",
+      "departureTime": "2026-10-27T08:00:00Z",
+      "expectedReturnTime": "2026-10-27T18:00:00Z",
+      "destination": "Downtown Convention Center",
+      "parentConsentVerified": true,
+      "status": "Approved",
+      "approvedBy": "Prof. Arthur Davies (Warden/Dean)",
+      "qrPass": "CIQ-GATEPASS-GP-2026-042-99EA",
+      "exitTimestamp": null,
+      "entryTimestamp": null,
+      "passType": "Day Pass (Single-Use)"
+    }
+  ],
+  "visitors": [
+    {
+      "id": "VIS-104",
+      "visitorName": "Dr. Ramesh Sundaram",
+      "affiliation": "National Science Foundation",
+      "hostFaculty": "Dr. Elena Chen",
+      "hostDepartment": "Computer Science",
+      "purpose": "Grant Evaluation & Lab Inspection",
+      "visitDate": "2026-10-27",
+      "checkInTime": null,
+      "checkOutTime": null,
+      "status": "Approved",
+      "badgeQR": "CIQ-VISITOR-VIS-104-SAFE"
+    }
+  ],
+  "parkingSlots": [
+    {
+      "id": "SLOT-A01",
+      "zone": "Zone A (Engineering Quadrant)",
+      "slotNumber": "A-01",
+      "type": "Faculty EV Charging",
+      "status": "Occupied",
+      "currentVehicle": "TESLA-M3-4412"
+    },
+    {
+      "id": "SLOT-A02",
+      "zone": "Zone A (Engineering Quadrant)",
+      "slotNumber": "A-02",
+      "type": "Faculty Reserved",
+      "status": "Available",
+      "currentVehicle": null
+    },
+    {
+      "id": "SLOT-A03",
+      "zone": "Zone A (Engineering Quadrant)",
+      "slotNumber": "A-03",
+      "type": "Student Two-Wheeler",
+      "status": "Available",
+      "currentVehicle": null
+    },
+    {
+      "id": "SLOT-B01",
+      "zone": "Zone B (Innovation Complex)",
+      "slotNumber": "B-01",
+      "type": "Student General",
+      "status": "Reserved",
+      "currentVehicle": "HONDA-CIV-9081",
+      "reservedBy": "STU-2024-001"
+    },
+    {
+      "id": "SLOT-B02",
+      "zone": "Zone B (Innovation Complex)",
+      "slotNumber": "B-02",
+      "type": "Student General",
+      "status": "Available",
+      "currentVehicle": null
+    },
+    {
+      "id": "SLOT-B03",
+      "zone": "Zone B (Innovation Complex)",
+      "slotNumber": "B-03",
+      "type": "Visitor Parking",
+      "status": "Available",
+      "currentVehicle": null
+    }
+  ],
+  "parkingPermits": [
+    {
+      "id": "PRK-PERMIT-01",
+      "slotId": "SLOT-B01",
+      "slotNumber": "B-01",
+      "studentId": "STU-2024-001",
+      "vehicleNumber": "HONDA-CIV-9081",
+      "vehicleType": "Car",
+      "validDate": "2026-10-27",
+      "qrPass": "CIQ-PARKING-PRK-PERMIT-01-SEC",
+      "status": "Active"
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ-2026-01",
+      "title": "Autonomous Disaster Relief Swarm Drone Navigation",
+      "category": "AI & Robotics",
+      "leadStudent": "Aarav Sharma",
+      "teamMembers": [
+        "Aarav Sharma",
+        "Maya Lin",
+        "Karan Verma"
+      ],
+      "department": "Computer Science & Engineering",
+      "advisor": "Dr. Elena Chen",
+      "description": "Decentralized vision-based SLAM and edge computing mesh network enabling micro-drones to survey collapse zones without GPS.",
+      "boothNumber": "Expo Arena - Booth #14",
+      "demoVideoUrl": "https://youtu.be/swarm-drone-demo",
+      "votesCount": 38,
+      "judgeScore": 94.5,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-01-VOTE",
+      "imageUrl": "/src/assets/images/project_swarm_drones.jpg",
+      "techStack": [
+        "PyTorch",
+        "ROS2",
+        "YOLOv8",
+        "PX4 Autopilot",
+        "Jetson Orin"
+      ],
+      "githubUrl": "https://github.com/campusiq/swarm-drone-navigation",
+      "abstract": "In disaster scenarios where GPS signals are jammed or degraded indoors, search and rescue robots must localize and map subterranean collapsed rubble autonomously. This project introduces a cooperative decentralized visual-inertial SLAM algorithm deployed on NVIDIA Jetson Orin micro-drones, sharing sparse 3D point clouds over an ad-hoc 5.8GHz peer-to-peer radio mesh.",
+      "keySpecifications": [
+        "120 fps onboard stereo SLAM",
+        "Sub-centimeter obstacle avoidance",
+        "Peer-to-peer ad-hoc mesh up to 500m",
+        "Auto-return upon 15% battery reserve"
+      ],
+      "documentation": {
+        "overview": "Autonomous disaster relief swarm drone navigation system designed for subterranean and GPS-denied environments.",
+        "methodology": "Utilized ROS2 Humble on Ubuntu 22.04 LTS coupled with custom PX4 flight controllers. Onboard stereo cameras feed a dual-pass EKF fusing IMU and visual odometry.",
+        "results": "Demonstrated 99.4% autonomous navigation success across 25 simulated collapse courses, mapping a 1,200 sq. meter zone in under 4.2 minutes.",
+        "futureWork": "Thermal imaging integration for body heat signature detection through smoke.",
+        "billOfMaterials": "Carbon-fiber custom frames, Jetson Orin Nano, PX4 Pixhawk 6C, Intel RealSense D435i, 6S 4500mAh LiPo."
+      }
+    },
+    {
+      "id": "PRJ-2026-02",
+      "title": "Bionic Myoelectric Prosthetic Hand with Tactile Feedback",
+      "category": "Biomedical & IoT",
+      "leadStudent": "Rohan Patel",
+      "teamMembers": [
+        "Rohan Patel",
+        "Chloe Adams",
+        "Sneha Reddy"
+      ],
+      "department": "Mechanical & Mechatronics",
+      "advisor": "Prof. Arthur Davies",
+      "description": "Low-cost 3D printed prosthetic arm with embedded pressure sensors returning haptic feedback to residual limb nerves.",
+      "boothNumber": "Expo Arena - Booth #08",
+      "demoVideoUrl": "https://youtu.be/bionic-hand-demo",
+      "votesCount": 29,
+      "judgeScore": 91,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-02-VOTE",
+      "imageUrl": "/src/assets/images/project_bionic_hand.jpg",
+      "techStack": [
+        "SolidWorks",
+        "EMG Signal Processing",
+        "C++",
+        "ESP32-S3",
+        "Haptic Actuators"
+      ],
+      "githubUrl": "https://github.com/campusiq/bionic-haptic-hand",
+      "abstract": "Modern commercial myoelectric prosthetics cost upwards of $30,000 and lack closed-loop sensory feedback. This capstone presents an open-source, sub-$450 prosthetic hand with 6 degrees of freedom driven by micro linear servos and closed-loop piezo-resistive fingertip pressure sensing translated to non-invasive vibrational nerve stimulators on the residual forearm.",
+      "keySpecifications": [
+        "6 Degrees of Freedom with individual finger articulation",
+        "< 65ms latency from EMG muscle burst to grip closure",
+        "Continuous closed-loop 256-level haptic feedback",
+        "Battery endurance > 18 hours per charge"
+      ],
+      "documentation": {
+        "overview": "Closed-loop biomimetic prosthetic terminal device incorporating active cutaneous feedback.",
+        "methodology": "Multi-channel dry surface EMG electrodes record muscular voltage fluctuations from residual forearm muscles. Real-time neural network classifier distinguishes 14 distinct grip postures.",
+        "results": "Amputee test subjects achieved 94.8% grip classification accuracy, successfully picking fragile objects like raw eggs without breakage.",
+        "futureWork": "Direct osseointegration mechanical coupling and wireless telemetry diagnostics.",
+        "billOfMaterials": "PETG 3D structural bones, TPU flexible joints, Coreless micro-servos, ESP32-S3 microcontroller, Linear resonant haptic actuators."
+      }
+    },
+    {
+      "id": "PRJ-2026-03",
+      "title": "Zero-Knowledge Decentralized Academic Credential Ledger",
+      "category": "Cybersecurity & Web3",
+      "leadStudent": "Zoe Washington",
+      "teamMembers": [
+        "Zoe Washington",
+        "Neil Armstrong Jr.",
+        "srija"
+      ],
+      "department": "Computer Science & Engineering",
+      "advisor": "Dr. Sarah Jenkins",
+      "description": "Tamper-proof verifiable diplomas using cryptographic ZK-SNARK proofs that respect student privacy while enabling instantaneous verification.",
+      "boothNumber": "Expo Arena - Booth #22",
+      "demoVideoUrl": "https://youtu.be/zk-credentials-demo",
+      "votesCount": 24,
+      "judgeScore": 89.5,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-03-VOTE",
+      "imageUrl": "/src/assets/images/project_zk_ledger.jpg",
+      "techStack": [
+        "Solidity",
+        "Circom 2.1",
+        "zk-SNARKs",
+        "Next.js 15",
+        "Ethers.js",
+        "Rust"
+      ],
+      "githubUrl": "https://github.com/campusiq/zk-academic-credentials",
+      "abstract": "Degree fraud costs institutions and employers billions annually while background check companies invade student privacy by demanding raw transcripts. We designed a cryptographic credentials protocol where university registrars sign degrees as Merkle leaves. Students can prove graduation date, GPA threshold, and major using zero-knowledge proofs without revealing their full transcripts or personal identities.",
+      "keySpecifications": [
+        "Proof generation latency < 1.2s on mobile client",
+        "Verification gas cost < 185,000 on EVM L2",
+        "Zero student PII revealed during employment check",
+        "W3C Verifiable Credential standard compliant"
+      ],
+      "documentation": {
+        "overview": "Privacy-preserving decentralized academic verification engine utilizing Groth16 zk-SNARK circuits.",
+        "methodology": "Designed arithmetic circuits in Circom verifying ECDSA registrar signatures inside the zk-proof. Smart contracts deployed on Layer-2 blockchain verify proofs in O(1) time complexity.",
+        "results": "Tested with 10,000 synthetic campus diploma issuances. Zero cryptographic leakage of student personal information.",
+        "futureWork": "Integration with national digital identity frameworks and decentralized storage pinning.",
+        "billOfMaterials": "Cloud verifier nodes, EVM RPC endpoints, OpenZeppelin cryptographic contracts."
+      }
+    },
+    {
+      "id": "PRJ-2026-04",
+      "title": "AgriSense: Autonomous Solar AI Rover for Precision Agriculture",
+      "category": "Smart IoT & Robotics",
+      "leadStudent": "Vamsi Uppalapati",
+      "teamMembers": [
+        "Vamsi Uppalapati",
+        "Rahul Deshmukh",
+        "Vikramaditya Rao"
+      ],
+      "department": "Computer Science & Engineering",
+      "advisor": "Dr. Rajesh Sundaram",
+      "description": "Solar-powered autonomous agricultural rover with multispectral computer vision for real-time crop disease diagnosis and targeted non-chemical weed eradication.",
+      "boothNumber": "Expo Arena - Booth #04",
+      "demoVideoUrl": "https://youtu.be/agrisense-rover-demo",
+      "votesCount": 36,
+      "judgeScore": 97,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-04-VOTE",
+      "imageUrl": "/src/assets/images/project_agrisense_robot.jpg",
+      "techStack": [
+        "TensorFlow Lite",
+        "RTK-GPS",
+        "ROS2",
+        "Python",
+        "Solar MPPT",
+        "OpenCV"
+      ],
+      "githubUrl": "https://github.com/campusiq/agrisense-rover",
+      "abstract": "Excessive herbicide use causes environmental degradation while manual crop scouting is labor-intensive. AgriSense is an autonomous solar rover navigating furrow rows with RTK centimeter-precision GPS and multispectral cameras to identify foliar blights, nitrogen deficiencies, and target weeds with high-precision mechanical cutters.",
+      "keySpecifications": [
+        "Centimeter-accurate RTK-GPS navigation",
+        "97.2% weed identification accuracy at 1.5 m/s",
+        "100% solar self-recharging with 300W bifacial panel",
+        "LoRaWAN farm telemetry uplink up to 10 km"
+      ],
+      "documentation": {
+        "overview": "Self-sustaining agricultural rover combining precision robotics with edge AI plant pathology models.",
+        "methodology": "Trained custom YOLOv8-Nano models on over 80,000 multi-spectral crop leaf images. Integrated rocker-bogie suspension for uneven farm terrain traversal.",
+        "results": "Reduced farm herbicide consumption by 91% on test wheat and soy plots.",
+        "futureWork": "Automated nighttime UV-C fungal spore sterilization modules.",
+        "billOfMaterials": "Aluminum extrusion chassis, All-terrain rocker-bogie, Jetson Nano, RTK GNSS module, 100W brushless hub motors."
+      }
+    },
+    {
+      "id": "PRJ-2026-05",
+      "title": "NeuroScan: Ultra-Low-Power Wearable EEG for Seizure Pre-Detection",
+      "category": "Biomedical Tech",
+      "leadStudent": "Ananya Iyer",
+      "teamMembers": [
+        "Ananya Iyer",
+        "Sneha Reddy"
+      ],
+      "department": "Biotechnology & Bioinformatics",
+      "advisor": "Prof. Meera Kulkarni",
+      "description": "Ultra-low power wearable headband acquiring 8-channel EEG signals with transformer-based edge AI to forecast epileptic seizures up to 15 minutes before onset.",
+      "boothNumber": "Expo Arena - Booth #11",
+      "demoVideoUrl": "https://youtu.be/neuroscan-eeg-demo",
+      "votesCount": 32,
+      "judgeScore": 95,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-05-VOTE",
+      "imageUrl": "/src/assets/images/project_neuroscan_eeg.jpg",
+      "techStack": [
+        "Edge Impulse",
+        "PyTorch",
+        "Nordic nRF5340",
+        "BLE 5.3",
+        "Bio-potential Analog Front-End"
+      ],
+      "githubUrl": "https://github.com/campusiq/neuroscan-eeg",
+      "abstract": "Epileptic patients suffer unexpected seizures that result in physical injury and loss of independence. NeuroScan is a lightweight, non-invasive forehead headband with dry conductive polymer electrodes streaming EEG data into an ultra-low-power TinyML transformer model that detects pre-ictal bio-electrical rhythms 8 to 15 minutes prior to seizure manifestation.",
+      "keySpecifications": [
+        "8-channel 24-bit bio-potential resolution",
+        "Seizure onset anticipation window: 8 - 15 minutes",
+        "Power consumption < 12mW for 48-hour continuous runtime",
+        "Automatic emergency SMS + GPS location alert to caregivers"
+      ],
+      "documentation": {
+        "overview": "Wearable neurological monitoring system for real-time pre-ictal seizure prediction.",
+        "methodology": "Designed low-noise active electrodes and implemented a quantized 1D temporal convolutional transformer on dual-core ARM Cortex-M33.",
+        "results": "Achieved 96.2% sensitivity with a false positive rate under 0.04 per hour on CHB-MIT clinical benchmark datasets.",
+        "futureWork": "Closed-loop vagus nerve micro-stimulation for active seizure abort.",
+        "billOfMaterials": "Flexible polyimide PCB, TI ADS1299 analog front end, Nordic nRF5340, Medical-grade silicone enclosure, 300mAh LiPo."
+      }
+    },
+    {
+      "id": "PRJ-2026-06",
+      "title": "EcoDrive: Liquid-Cooled Solid-State Battery for Formula Student EV",
+      "category": "Clean Tech & Automotive",
+      "leadStudent": "Vikramaditya Rao",
+      "teamMembers": [
+        "Vikramaditya Rao",
+        "Rohan Patel",
+        "Karan Verma"
+      ],
+      "department": "Mechanical & Mechatronics",
+      "advisor": "Dr. Rajesh Sundaram",
+      "description": "High-density 400V solid-state battery accumulator with microchannel phase-change cold plates and real-time CAN bus telemetry for collegiate electric formula racing.",
+      "boothNumber": "Expo Arena - Booth #01",
+      "demoVideoUrl": "https://youtu.be/ecodrive-formula-ev",
+      "votesCount": 41,
+      "judgeScore": 96,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-06-VOTE",
+      "imageUrl": "/src/assets/images/project_ecodrive_ev.jpg",
+      "techStack": [
+        "ANSYS Fluent",
+        "CAN Bus",
+        "SolidWorks Electrical",
+        "STM32-H7",
+        "MATLAB Simulink"
+      ],
+      "githubUrl": "https://github.com/campusiq/ecodrive-formula-ev",
+      "abstract": "Collegiate electric racing mandates extreme power density under rigorous safety constraints. EcoDrive engineers an experimental 400V, 6.8 kWh solid-state pouch-cell battery pack with 3D printed additive cold plates circulating dielectric fluid, delivering 80kW peak power with uniform pack thermal variance under 2.3°C during endurance sprint laps.",
+      "keySpecifications": [
+        "400V nominal bus with 80kW peak output",
+        "Microchannel cold plate cooling maintaining cells < 38°C",
+        "Total accumulator weight only 42 kg (190 Wh/kg pack-level)",
+        "Dual redundant optical isolation safety interlocks"
+      ],
+      "documentation": {
+        "overview": "Next-generation solid-state battery energy storage system for Formula Student competition.",
+        "methodology": "Conducted computational fluid dynamics (CFD) in ANSYS Fluent to model laminar coolant flow over cell terminals. Programmed custom STM32 BMS monitoring 96 individual cell voltages at 1 kHz.",
+        "results": "Vehicle completed 22 km endurance race without thermal throttling, achieving 0-100 km/h acceleration in 3.1 seconds.",
+        "futureWork": "Regenerative braking optimization and carbon-fiber composite casing integration.",
+        "billOfMaterials": "Custom cell modules, Copper nickel-plated busbars, STM32-H7 master BMS, Dielectric coolant pump, Carbon fiber flameproof box."
+      }
+    },
+    {
+      "id": "PRJ-2026-07",
+      "title": "HoloTutor: Augmented Reality Spatial Anatomy & Engine Simulator",
+      "category": "AR/VR & Education",
+      "leadStudent": "Maya Lin",
+      "teamMembers": [
+        "Maya Lin",
+        "Aarav Sharma"
+      ],
+      "department": "Electronics & Communication",
+      "advisor": "Prof. David Miller",
+      "description": "Cross-platform WebXR spatial learning environment enabling multi-user holographic disassembly of turbofan jet engines and human cardiovascular systems.",
+      "boothNumber": "Expo Arena - Booth #19",
+      "demoVideoUrl": "https://youtu.be/holotutor-ar-demo",
+      "votesCount": 27,
+      "judgeScore": 92.5,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-07-VOTE",
+      "imageUrl": "/src/assets/images/project_holotutor_ar.jpg",
+      "techStack": [
+        "Three.js",
+        "WebXR",
+        "React Three Fiber",
+        "WebRTC",
+        "Blender",
+        "Spatial Audio"
+      ],
+      "githubUrl": "https://github.com/campusiq/holotutor-spatial-ar",
+      "abstract": "Traditional CAD models and 2D diagrams fail to convey complex spatial physics in engineering and medical education. HoloTutor runs directly in web browsers supporting Apple Vision Pro, Meta Quest, and mobile phones, enabling synchronous multi-student virtual dissection of intricate 3D assemblies with zero software installation.",
+      "keySpecifications": [
+        "Sub-16ms latency for 90 fps spatial rendering",
+        "Multi-user shared room synchronization via WebRTC",
+        "Physical hand tracking gesture manipulation",
+        "Zero-install runs directly in Safari & Chrome WebXR"
+      ],
+      "documentation": {
+        "overview": "Browser-based spatial computing educational platform with real-time multi-user physics.",
+        "methodology": "Developed GLTF model compression pipelines reducing 2M polygon jet engines to under 12MB. Engineered custom spatial anchor sync over WebRTC DataChannels.",
+        "results": "Classroom trials with 120 students showed 44% higher retention rates on mechanical anatomy exams compared to textbook study.",
+        "futureWork": "Haptic force-feedback glove integration and AI voice tutor avatar.",
+        "billOfMaterials": "WebXR headsets, WebRTC signaling servers, AWS S3 model CDN."
+      }
+    },
+    {
+      "id": "PRJ-2026-08",
+      "title": "CyberSentinel: AI Deception HoneyNet for Automated Zero-Day Defense",
+      "category": "Cybersecurity & AI",
+      "leadStudent": "Karan Verma",
+      "teamMembers": [
+        "Karan Verma",
+        "Zoe Washington"
+      ],
+      "department": "Computer Science & Engineering",
+      "advisor": "Dr. Michael Chang",
+      "description": "Dynamic generative honeynet creating synthetic campus servers and decoy SCADA infrastructure to lure, trap, and reverse-engineer zero-day cyber attacks in real-time.",
+      "boothNumber": "Expo Arena - Booth #27",
+      "demoVideoUrl": "https://youtu.be/cybersentinel-demo",
+      "votesCount": 31,
+      "judgeScore": 93.5,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-08-VOTE",
+      "imageUrl": "/src/assets/images/project_cybersentinel.jpg",
+      "techStack": [
+        "Python",
+        "eBPF",
+        "Docker Sandbox",
+        "LLM Agent Traps",
+        "Wireshark Engine",
+        "Elasticsearch"
+      ],
+      "githubUrl": "https://github.com/campusiq/cybersentinel-honeynet",
+      "abstract": "Critical university networks and energy grids face automated nation-state scanning. CyberSentinel deploys lightweight containerized honeypots that dynamically mimic real campus database servers and building automation controllers. When breached, an LLM-driven decoy simulates realistic shell sessions to keep adversaries engaged while eBPF kernel hooks record malware binaries and payloads.",
+      "keySpecifications": [
+        "eBPF low-overhead kernel syscall recording",
+        "Dynamic realistic response generation using local LLM",
+        "Automated extraction of indicators of compromise (IOCs)",
+        "Zero false-positive alarms to campus SOC"
+      ],
+      "documentation": {
+        "overview": "Autonomous cyber deception platform isolating advanced persistent threats.",
+        "methodology": "Kernel-level probes trace file descriptors, network sockets, and execve calls inside unprivileged container jails. Payloads are automatically detonated in air-gapped sandboxes.",
+        "results": "Intercepted 1,420 real malicious intrusions over 30 days without exposing production campus databases.",
+        "futureWork": "Automated firewall rule synthesis and threat intel sharing via STIX/TAXII.",
+        "billOfMaterials": "Kubernetes edge cluster, eBPF Linux kernel nodes, Elasticsearch SIEM."
+      }
+    },
+    {
+      "id": "PRJ-2026-09",
+      "title": "SkyNet CubeSat: 1U Nanosatellite with LoRa Earth Mesh Telemetry",
+      "category": "Aerospace & Telecom",
+      "leadStudent": "Neil Armstrong Jr.",
+      "teamMembers": [
+        "Neil Armstrong Jr.",
+        "Vamsi Uppalapati",
+        "Chloe Adams"
+      ],
+      "department": "Electronics & Communication",
+      "advisor": "Prof. Sunita Sharma",
+      "description": "University 1U CubeSat payload engineered for low Earth orbit, carrying a wide-angle Earth observation sensor and amateur radio LoRa ground relay transponder.",
+      "boothNumber": "Expo Arena - Booth #12",
+      "demoVideoUrl": "https://youtu.be/skynet-cubesat-demo",
+      "votesCount": 37,
+      "judgeScore": 95.5,
+      "status": "Approved",
+      "qrCode": "CIQ-PROJECT-PRJ-2026-09-VOTE",
+      "imageUrl": "/src/assets/images/project_cubesat_satellite.jpg",
+      "techStack": [
+        "Embedded C",
+        "FreeRTOS",
+        "KiCAD",
+        "LoRa 433MHz",
+        "Thermal Vacuum Testing"
+      ],
+      "githubUrl": "https://github.com/campusiq/skynet-cubesat",
+      "abstract": "Access to space telemetry remains expensive for educational institutions. SkyNet CubeSat is a 10x10x10cm nanosatellite featuring triple-junction GaAs solar arrays, a dual-redundant FreeRTOS on-board computer, and long-range LoRa modulation capable of transmitting telemetry directly to low-cost $20 handheld ground stations worldwide.",
+      "keySpecifications": [
+        "1U Form Factor (10 x 10 x 10 cm, 1.18 kg mass)",
+        "433MHz LoRa downlink receivable by handheld dipole antennas",
+        "Passive magnetic stabilization with hysteresis rods",
+        "Space-grade vacuum and thermal cycled (-20°C to +70°C)"
+      ],
+      "documentation": {
+        "overview": "Collegiate orbital nanosatellite platform enabling open scientific access.",
+        "methodology": "Designed 6-layer high-reliability PCB backplane complying with CubeSat Design Specification (CDS) standards. Conducted shake table vibration and thermal vacuum chamber tests.",
+        "results": "Passed all pre-flight thermal-vacuum (TVAC) and launch provider vibration screening protocols.",
+        "futureWork": "Orbital launch scheduled aboard commercial rideshare rocket in Q3 2027.",
+        "billOfMaterials": "Space-grade aluminum 6061 chassis, GaAs triple-junction solar panels, STM32-L4 ultra-low power MCU, Semtech SX1262 transceiver."
+      }
+    }
+  ],
+  "projectVotes": [
+    {
+      "id": "VOTE-01",
+      "projectId": "PRJ-2026-02",
+      "userId": "USR-04",
+      "votedAt": "2026-10-25T11:20:00Z"
+    },
+    {
+      "id": "VOTE-1793125741147",
+      "projectId": "PRJ-2026-04",
+      "userId": "TEST-VOTER-99",
+      "votedAt": "2026-10-27T18:29:01.147Z"
+    }
+  ],
+  "lostFound": [
+    {
+      "id": "LF-101",
+      "type": "Found",
+      "title": "Space Gray iPad Air with Apple Pencil",
+      "category": "Electronics",
+      "locationFound": "Central Library, 2nd Floor Study Cubicle #18",
+      "dateReported": "2026-10-25",
+      "description": "Found inside a blue felt sleeve with a sticker of Turing machine on back.",
+      "securityQuestion": "What is the lockscreen wallpaper photo?",
+      "status": "Open for Claim",
+      "reportedBy": "Marcus Bell (Librarian)",
+      "contactHidden": true
+    },
+    {
+      "id": "LF-102",
+      "type": "Lost",
+      "title": "Silver Scientific Calculator (Casio fx-991EX)",
+      "category": "Stationery",
+      "locationFound": "LHC Room 302",
+      "dateReported": "2026-10-26",
+      "description": "Name written on back battery cover in permanent ink.",
+      "securityQuestion": "What initials are engraved on the sliding case?",
+      "status": "Pending Match",
+      "reportedBy": "Aarav Sharma",
+      "contactHidden": true
+    }
+  ],
+  "complaints": [
+    {
+      "id": "CMP-2026-081",
+      "ticketNumber": "TKT-081",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "category": "Laboratory & Equipment",
+      "title": "Oscilloscope Calibration Drift in VLSI Lab Bench 4",
+      "description": "Signal jitter observed on Channel 2 causing erroneous rise-time measurements for coursework.",
+      "assignedDepartment": "Electronics Lab Maintenance",
+      "priority": "High",
+      "status": "In Progress",
+      "targetResolutionHours": 24,
+      "createdAt": "2026-10-26T10:00:00Z",
+      "staffNotes": "Technician assigned. Replacement probe scheduled for inspection 2 PM.",
+      "statusHistory": [
+        {
+          "status": "Submitted",
+          "time": "2026-10-26T10:00:00Z",
+          "note": "Issue logged by student"
+        },
+        {
+          "status": "Acknowledged",
+          "time": "2026-10-26T10:30:00Z",
+          "note": "Reviewed by Chief Lab Tech"
+        },
+        {
+          "status": "In Progress",
+          "time": "2026-10-26T11:15:00Z",
+          "note": "Bench isolated for diagnostic recalibration"
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-079",
+      "ticketNumber": "TKT-079",
+      "studentId": "STU-2024-002",
+      "studentName": "Maya Lin",
+      "category": "Campus Network & Wi-Fi",
+      "title": "Intermittent Eduroam Signal in Turing Complex 3rd Floor",
+      "description": "Frequent authentication dropouts during afternoon lecture periods.",
+      "assignedDepartment": "IT Infrastructure & NOC",
+      "priority": "Medium",
+      "status": "Resolved",
+      "targetResolutionHours": 48,
+      "createdAt": "2026-10-24T14:00:00Z",
+      "staffNotes": "Rebooted Access Point AP-TC-302 and replaced PoE switch port.",
+      "statusHistory": [
+        {
+          "status": "Submitted",
+          "time": "2026-10-24T14:00:00Z",
+          "note": "Logged"
+        },
+        {
+          "status": "In Progress",
+          "time": "2026-10-25T09:00:00Z",
+          "note": "Hardware tested"
+        },
+        {
+          "status": "Resolved",
+          "time": "2026-10-25T16:00:00Z",
+          "note": "Telemetry confirmed 100% link stability"
+        }
+      ]
+    }
+  ],
+  "attendanceSessions": [
+    {
+      "id": "ATT-SESS-01",
+      "courseCode": "CS601",
+      "courseName": "Distributed Systems & Cloud Computing",
+      "facultyId": "USR-03",
+      "facultyName": "Dr. Elena Chen",
+      "roomNumber": "Room NB-101",
+      "date": "2026-10-27",
+      "timeWindow": "09:00 AM - 10:30 AM (Active Window)",
+      "sessionCode": "DS-8819",
+      "activeQrToken": "CIQ-ATTEND-CS601-LIVE-TOKEN-99",
+      "expiresAt": "2026-10-27T18:07:42.791Z",
+      "totalPresent": 30,
+      "totalEnrolled": 64
+    }
+  ],
+  "attendanceRecords": [
+    {
+      "id": "REC-1793159312611",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793159279334",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-01",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "roomNumber": "Room NB-101",
+      "date": "2026-10-27",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-02",
+      "studentId": "STU-2024-002",
+      "studentName": "Maya Lin",
+      "rollNumber": "241FA04002",
+      "courseCode": "CS601",
+      "roomNumber": "Room NB-101",
+      "date": "2026-10-27",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-03",
+      "studentId": "STU-2024-008",
+      "studentName": "Vamsi Uppalapati",
+      "rollNumber": "241FA04331",
+      "courseCode": "CS601",
+      "roomNumber": "Room NB-101",
+      "date": "2026-10-27",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793156512438",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793156525754",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793156552087",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793157056196",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793158128583",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793158474662",
+      "studentId": "STU-2024-002",
+      "studentName": "Maya Lin",
+      "rollNumber": "241FA04002",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793158597868",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    },
+    {
+      "id": "REC-1793158615804",
+      "studentId": "STU-2024-001",
+      "studentName": "Aarav Sharma",
+      "rollNumber": "241FA04001",
+      "courseCode": "CS601",
+      "date": "2026-10-28",
+      "status": "Present",
+      "method": "NFC SmartCard Tap"
+    }
+  ],
+  "skillPassports": [
+    {
+      "studentId": "STU-2024-001",
+      "headline": "AI Systems Architect & Embedded Robotics Enthusiast",
+      "bio": "Passionate about distributed micro-services, reinforcement learning for robotics, and high-frequency edge computing.",
+      "skills": [
+        "Distributed Systems",
+        "PyTorch",
+        "Rust / C++",
+        "ROS 2 (Robot Operating System)",
+        "TensorFlow Lite",
+        "Kubernetes",
+        "Computer Vision"
+      ],
+      "certifications": [
+        {
+          "title": "AWS Certified Solutions Architect — Associate",
+          "issuer": "Amazon Web Services",
+          "date": "2025-11",
+          "verified": true,
+          "credentialId": "AWS-991204"
+        },
+        {
+          "title": "NVIDIA Deep Learning Institute — Fundamentals of Deep Learning",
+          "issuer": "NVIDIA",
+          "date": "2025-08",
+          "verified": true,
+          "credentialId": "DLI-NV-4412"
+        }
+      ],
+      "hackathons": [
+        {
+          "name": "Global Space Hack 2025",
+          "award": "1st Place Winner",
+          "project": "Satellite Constellation Orbit Optimizer"
+        },
+        {
+          "name": "HackMIT 2025",
+          "award": "Best Hardware/IoT Hack",
+          "project": "Neural Tactile Sensory Glove"
+        }
+      ],
+      "internships": [
+        {
+          "company": "Apex Robotics Labs",
+          "role": "Robotics Engineering Intern",
+          "period": "Summer 2025 (3 mos)",
+          "verified": true
+        }
+      ],
+      "careerGoals": "Targeting a Master of Science in Robotics / Autonomous Systems and Senior Machine Learning Systems Engineering role.",
+      "shareableId": "PASSPORT-AARAV-2026"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-01",
+      "title": "Hall Ticket Autumn 2026 Ready",
+      "message": "Your official examination hall ticket for Autumn 2026 has been generated with verified seat assignments.",
+      "type": "exam",
+      "timestamp": "2 hours ago",
+      "read": false,
+      "actionUrl": "exams"
+    },
+    {
+      "id": "NOTIF-02",
+      "title": "Library Overdue Notice (2 days)",
+      "message": "Book \"Introduction to Algorithms\" is 2 days past due date. Applicable fine: $4.00.",
+      "type": "library",
+      "timestamp": "5 hours ago",
+      "read": false,
+      "actionUrl": "library"
+    },
+    {
+      "id": "NOTIF-03",
+      "title": "Gate Pass GP-2026-042 Approved",
+      "message": "Your gate pass for IEEE Conference has been approved by Dean Davies. QR Pass is ready for exit verification.",
+      "type": "gatepass",
+      "timestamp": "1 day ago",
+      "read": true,
+      "actionUrl": "gatepass"
+    },
+    {
+      "id": "NOTIF-04",
+      "title": "Canteen Order #8921 is Ready!",
+      "message": "Your Mediterranean Grain Bowl & Matcha Latte are packaged and ready at Counter 2. Present pickup QR.",
+      "type": "canteen",
+      "timestamp": "10 mins ago",
+      "read": false,
+      "actionUrl": "canteen"
+    }
+  ],
+  "verificationLogs": [
+    {
+      "id": "LOG-001",
+      "token": "CIQ-EVTPASS-REG-2026-881-A7E9",
+      "type": "Event Entry Pass",
+      "entityId": "REG-2026-881",
+      "subjectName": "Aarav Sharma",
+      "verifiedBy": "Security Station — Turing Innovation Gate",
+      "status": "Valid & Admitted",
+      "timestamp": "2026-10-26T21:40:00Z",
+      "notes": "Pass scanned. Admitted to Turing Hall B."
+    },
+    {
+      "id": "LOG-1793081276032",
+      "token": "CIQ-STUID-STU-2024-001-9F2B81C4A0E1",
+      "type": "Digital Student ID",
+      "entityId": "STU-2024-001",
+      "subjectName": "Aarav Sharma",
+      "verifiedBy": "Security Staff (Main Campus Gateway Terminal)",
+      "status": "Verified & Valid",
+      "timestamp": "2026-10-27T06:07:56.032Z",
+      "notes": "Roll: CS-2024-089, Department: Computer Science & Engineering, Card Status: Active"
+    },
+    {
+      "id": "LOG-1793083053690",
+      "token": "CIQ-STUID-STU-2024-001-9F2B81C4A0E1",
+      "type": "Digital Student ID",
+      "entityId": "STU-2024-001",
+      "subjectName": "Aarav Sharma",
+      "verifiedBy": "Security Staff (Main Campus Gateway Terminal)",
+      "status": "Verified & Valid",
+      "timestamp": "2026-10-27T06:37:33.690Z",
+      "notes": "Roll: CS-2024-089, Department: Computer Science & Engineering, Card Status: Active"
+    },
+    {
+      "id": "LOG-1793083079827",
+      "token": "CIQ-EVTPASS-EXPIRED-TEST",
+      "type": "Security Credential Alert",
+      "entityId": "PASS-EXPIRED-TEST",
+      "subjectName": "Expired Credential Token",
+      "verifiedBy": "Security Staff (Main Campus Gateway Terminal)",
+      "status": "Expired",
+      "timestamp": "2026-10-27T06:37:59.827Z",
+      "notes": "Pass validity window elapsed. Re-admission rejected."
+    },
+    {
+      "id": "LOG-1793121559947",
+      "token": "CIQ-STUID-STU-2024-001-9F2B81C4A0E1",
+      "type": "Digital Student ID",
+      "entityId": "STU-2024-001",
+      "subjectName": "Aarav Sharma",
+      "verifiedBy": "Security Staff (Main Campus Gateway Terminal)",
+      "status": "Verified & Valid",
+      "timestamp": "2026-10-27T17:19:19.947Z",
+      "notes": "Roll: 241FA04001, Department: Computer Science & Engineering, Card Status: Active"
+    },
+    {
+      "id": "LOG-1793121570698",
+      "token": "CIQ-ATTEND-CS601-LIVE-TOKEN-99",
+      "type": "Classroom Lecture Attendance",
+      "entityId": "STU-2024-001",
+      "subjectName": "Aarav Sharma",
+      "verifiedBy": "Security Staff (Main Campus Gateway Terminal)",
+      "status": "Attendance Marked",
+      "timestamp": "2026-10-27T17:19:30.698Z",
+      "notes": "Course: CS601, Student: Aarav Sharma (241FA04001)"
+    }
+  ]
+}
