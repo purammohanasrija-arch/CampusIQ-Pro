@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <defs>
+    <linearGradient id="bgC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="badgeC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="560" rx="12" fill="url(#bgC)"/>
+  <rect x="0" y="0" width="24" height="560" rx="4" fill="#0284c7" opacity="0.4"/>
+  <rect x="16" y="16" width="368" height="528" rx="8" fill="none" stroke="#334155" stroke-width="2"/>
+  <rect x="48" y="48" width="160" height="26" rx="13" fill="url(#badgeC)"/>
+  <text x="128" y="65" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1">PRENTICE HALL PTR</text>
+  <circle cx="200" cy="230" r="90" fill="#0284c7" opacity="0.15"/>
+  <circle cx="200" cy="230" r="75" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="8 4"/>
+  <text x="200" y="275" fill="#f8fafc" font-family="Georgia, serif" font-size="130" font-weight="900" text-anchor="middle">C</text>
+  <text x="200" y="360" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800" text-anchor="middle">THE C PROGRAMMING</text>
+  <text x="200" y="390" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="22" font-weight="800" text-anchor="middle">LANGUAGE</text>
+  <text x="200" y="425" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Second Edition · ANSI C Standard</text>
+  <line x1="80" y1="450" x2="320" y2="450" stroke="#334155" stroke-width="1.5"/>
+  <text x="200" y="480" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Brian W. Kernighan</text>
+  <text x="200" y="502" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Dennis M. Ritchie</text>
+</svg>

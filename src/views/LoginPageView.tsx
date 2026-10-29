@@ -55,7 +55,7 @@ export const LoginPageView: React.FC<LoginPageViewProps> = ({
       department: 'Campus Safety & Turnstiles',
       badgeId: 'SEC-BADGE-8841',
       clearanceLevel: 'Level 4 · Chief Security Access',
-      photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&fit=crop&q=80'
+      photo: '/src/assets/images/avatar_chief_reed.svg'
     },
     {
       id: 'USR-02',
@@ -65,7 +65,7 @@ export const LoginPageView: React.FC<LoginPageViewProps> = ({
       department: 'Academic Affairs & Governance',
       badgeId: 'ADM-GOV-001',
       clearanceLevel: 'Level 5 · Executive Dean Clearance',
-      photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&fit=crop&q=80'
+      photo: '/src/assets/images/avatar_dean_davies.svg'
     },
     {
       id: 'USR-03',
@@ -75,7 +75,7 @@ export const LoginPageView: React.FC<LoginPageViewProps> = ({
       department: 'Computer Science & Engineering',
       badgeId: 'FAC-ENG-402',
       clearanceLevel: 'Level 3 · Academic & Lab Supervisor',
-      photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&fit=crop&q=80'
+      photo: '/src/assets/images/avatar_faculty_chen_1793080118249.jpg'
     },
     {
       id: 'STU-2024-001',
@@ -471,15 +471,11 @@ export const LoginPageView: React.FC<LoginPageViewProps> = ({
             {/* Inner Glowing Badge / Avatar */}
             <div className="w-24 h-24 rounded-full border-2 border-emerald-400 bg-stone-900 p-1 shadow-2xl shadow-emerald-500/50 relative z-10 flex items-center justify-center overflow-hidden">
               <img
-                src={
-                  verifyingUser.photo ||
-                  'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&fit=crop&q=80'
-                }
+                src={verifyingUser.photo || '/src/assets/images/student_aarav_sharma.jpg'}
                 alt={verifyingUser.name}
                 className="w-full h-full object-cover rounded-full"
                 onError={(e: any) => {
-                  e.target.src =
-                    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&fit=crop&q=80';
+                  e.target.src = '/src/assets/images/student_aarav_sharma.jpg';
                 }}
               />
             </div>

@@ -171,9 +171,14 @@ export const StudentsIdCardView: React.FC<StudentsIdCardViewProps> = ({
                     <div className="flex items-start gap-4 mt-5">
                       <div className="w-20 h-24 rounded-xl overflow-hidden border-2 border-emerald-400/80 shadow-md bg-stone-800 shrink-0">
                         <img
-                          src={selectedStudent.photo}
+                          src={selectedStudent.photo || '/src/assets/images/student_aarav_sharma.jpg'}
                           alt={selectedStudent.name}
                           className="w-full h-full object-cover"
+                          onError={(e) => {
+                            const target = e.currentTarget as HTMLImageElement;
+                            target.onerror = null;
+                            target.src = '/src/assets/images/student_aarav_sharma.jpg';
+                          }}
                         />
                       </div>
                       <div className="min-w-0 flex-1">
@@ -326,9 +331,14 @@ export const StudentsIdCardView: React.FC<StudentsIdCardViewProps> = ({
                 >
                   <div className="flex items-center gap-3 min-w-0">
                     <img
-                      src={student.photo}
+                      src={student.photo || '/src/assets/images/student_aarav_sharma.jpg'}
                       alt={student.name}
                       className="w-10 h-10 rounded-full object-cover border border-stone-200 shrink-0"
+                      onError={(e) => {
+                        const target = e.currentTarget as HTMLImageElement;
+                        target.onerror = null;
+                        target.src = '/src/assets/images/student_aarav_sharma.jpg';
+                      }}
                     />
                     <div className="min-w-0">
                       <div className="flex items-center gap-2">

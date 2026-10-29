@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad_PN" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#500724"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="36" fill="url(#grad_PN)"/>
+  <circle cx="100" cy="78" r="38" fill="#ffffff" opacity="0.92"/>
+  <path d="M40 175 C40 130 70 120 100 120 C130 120 160 130 160 175 Z" fill="#ffffff" opacity="0.92"/>
+  <rect x="125" y="125" width="56" height="28" rx="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+  <text x="153" y="144" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="800" text-anchor="middle">PN</text>
+</svg>

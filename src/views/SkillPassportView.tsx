@@ -121,9 +121,14 @@ export const SkillPassportView: React.FC<SkillPassportViewProps> = ({
       <div className="bg-white rounded-2xl border border-stone-200 p-6 shadow-xs flex flex-col md:flex-row items-center md:items-start gap-6">
         <div className="relative">
           <img
-            src={student.photo}
+            src={student.photo || '/src/assets/images/student_aarav_sharma.jpg'}
             alt={student.name}
             className="w-24 h-24 rounded-2xl object-cover border-2 border-emerald-600/60 shadow-md"
+            onError={(e) => {
+              const target = e.currentTarget as HTMLImageElement;
+              target.onerror = null;
+              target.src = '/src/assets/images/student_aarav_sharma.jpg';
+            }}
           />
           <div className="absolute -bottom-2 -right-2 bg-emerald-800 text-white p-1 rounded-full shadow">
             <ShieldCheck className="w-4 h-4" />

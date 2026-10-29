@@ -799,7 +799,9 @@ export const ProjectsView: React.FC<ProjectsViewProps> = ({
                       alt={proj.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100"
                       onError={(e) => {
-                        (e.target as HTMLImageElement).src = '/src/assets/images/project_swarm_drones.jpg';
+                        const target = e.currentTarget as HTMLImageElement;
+                        target.onerror = null;
+                        target.src = '/src/assets/images/project_swarm_drones.jpg';
                       }}
                     />
                   ) : (
@@ -1062,6 +1064,11 @@ export const ProjectsView: React.FC<ProjectsViewProps> = ({
                           src={dossierProject.imageUrl || '/src/assets/images/project_swarm_drones.jpg'}
                           alt={dossierProject.title}
                           className="w-full h-64 object-cover"
+                          onError={(e) => {
+                            const target = e.currentTarget as HTMLImageElement;
+                            target.onerror = null;
+                            target.src = '/src/assets/images/project_swarm_drones.jpg';
+                          }}
                         />
                         <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-3 text-white text-[11px]">
                           <p className="font-semibold flex items-center gap-1">

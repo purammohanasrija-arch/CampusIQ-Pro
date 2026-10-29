@@ -612,11 +612,11 @@ export const AttendanceView: React.FC<AttendanceViewProps> = ({
               {/* Live Student ID Preview Card */}
               <div className="flex items-center gap-3 p-2.5 bg-stone-950/70 rounded-lg border border-stone-700/70">
                 <img
-                  src={activeStudent.photo || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&fit=crop&q=80'}
+                  src={activeStudent.photo || '/src/assets/images/student_aarav_sharma.jpg'}
                   alt={activeStudent.name}
                   className="w-11 h-11 rounded-lg object-cover border border-emerald-500/60 shadow-sm shrink-0"
                   onError={(e: any) => {
-                    e.target.src = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&fit=crop&q=80';
+                    e.target.src = '/src/assets/images/student_aarav_sharma.jpg';
                   }}
                 />
                 <div className="min-w-0 flex-1">
@@ -739,11 +739,11 @@ export const AttendanceView: React.FC<AttendanceViewProps> = ({
             {/* Student ID Card Layout */}
             <div className="p-3.5 bg-gradient-to-br from-stone-800/90 to-stone-950/90 rounded-xl border border-stone-700 flex items-center gap-3.5">
               <img
-                src={tapResultModal.student.photo || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&fit=crop&q=80'}
+                src={tapResultModal.student.photo || '/src/assets/images/student_aarav_sharma.jpg'}
                 alt={tapResultModal.student.name}
                 className="w-14 h-14 rounded-xl object-cover border-2 border-emerald-400 shadow-lg shrink-0"
                 onError={(e: any) => {
-                  e.target.src = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&fit=crop&q=80';
+                  e.target.src = '/src/assets/images/student_aarav_sharma.jpg';
                 }}
               />
               <div className="min-w-0 flex-1">

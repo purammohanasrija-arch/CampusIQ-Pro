@@ -1,6 +1,6 @@
 {
-  "currentUserRole": "Security Staff",
-  "currentUserId": "USR-08",
+  "currentUserRole": "Faculty",
+  "currentUserId": "USR-03",
   "users": [
     {
       "id": "USR-01",
@@ -9,7 +9,8 @@
       "email": "director@campusiq.edu",
       "department": "Executive Directorate",
       "designation": "Campus Director",
-      "roomNumber": "Room NB-301"
+      "roomNumber": "Room NB-301",
+      "photo": "/src/assets/images/avatar_student_sarah_1793080117024.jpg"
     },
     {
       "id": "USR-02",
@@ -18,7 +19,8 @@
       "email": "dean@campusiq.edu",
       "department": "Academic Affairs",
       "designation": "Dean of Academics & Warden",
-      "roomNumber": "Room NB-101"
+      "roomNumber": "Room NB-101",
+      "photo": "/src/assets/images/avatar_dean_davies.svg"
     },
     {
       "id": "USR-03",
@@ -27,7 +29,8 @@
       "email": "elena.chen@campusiq.edu",
       "department": "Computer Science & Engineering",
       "designation": "Professor & Head of Department",
-      "roomNumber": "Room NB-201"
+      "roomNumber": "Room NB-201",
+      "photo": "/src/assets/images/avatar_faculty_chen_1793080118249.jpg"
     },
     {
       "id": "USR-04",
@@ -36,7 +39,8 @@
       "email": "aarav.sharma@student.campusiq.edu",
       "department": "Computer Science",
       "rollNumber": "241FA04001",
-      "roomNumber": "Room NB-101"
+      "roomNumber": "Room NB-101",
+      "photo": "/src/assets/images/student_aarav_sharma.jpg"
     },
     {
       "id": "USR-05",
@@ -45,7 +49,8 @@
       "email": "library@campusiq.edu",
       "department": "Central Library",
       "designation": "Head Librarian",
-      "roomNumber": "Room NB-104 (Library Wing)"
+      "roomNumber": "Room NB-104 (Library Wing)",
+      "photo": "/src/assets/images/avatar_marcus_bell.svg"
     },
     {
       "id": "USR-06",
@@ -54,7 +59,8 @@
       "email": "labtech@campusiq.edu",
       "department": "Robotics & IoT",
       "designation": "Senior Lab Instructor",
-      "roomNumber": "Room NB-305 (Robotics Lab)"
+      "roomNumber": "Room NB-305 (Robotics Lab)",
+      "photo": "/src/assets/images/avatar_vikram_mehta.svg"
     },
     {
       "id": "USR-07",
@@ -63,7 +69,8 @@
       "email": "canteen@campusiq.edu",
       "department": "Campus Dining",
       "designation": "Dining Facility Manager",
-      "roomNumber": "Room NB-G02 (Cafeteria)"
+      "roomNumber": "Room NB-G02 (Cafeteria)",
+      "photo": "/src/assets/images/avatar_chef_mario.svg"
     },
     {
       "id": "USR-08",
@@ -72,7 +79,8 @@
       "email": "security@campusiq.edu",
       "department": "Campus Security",
       "designation": "Chief Security Officer",
-      "roomNumber": "Room NB-G01 (Security Post)"
+      "roomNumber": "Room NB-G01 (Security Post)",
+      "photo": "/src/assets/images/avatar_chief_reed.svg"
     },
     {
       "id": "USR-09",
@@ -81,7 +89,8 @@
       "email": "events@campusiq.edu",
       "department": "Student Council",
       "designation": "Cultural Secretary",
-      "roomNumber": "Room NB-108 (Council Hall)"
+      "roomNumber": "Room NB-108 (Council Hall)",
+      "photo": "/src/assets/images/avatar_priya_nambiar.svg"
     },
     {
       "id": "USR-10",
@@ -90,7 +99,8 @@
       "email": "coe@campusiq.edu",
       "department": "Controller of Exams",
       "designation": "Controller of Examinations",
-      "roomNumber": "Room NB-105 (Exam Confidential Room)"
+      "roomNumber": "Room NB-105 (Exam Confidential Room)",
+      "photo": "/src/assets/images/avatar_dr_thorne.svg"
     },
     {
       "id": "USR-11",
@@ -99,7 +109,8 @@
       "email": "sophia.vance@techpartner.com",
       "department": "Industry Advisory Board",
       "designation": "Industry Tech Fellow",
-      "roomNumber": "Room NB-206"
+      "roomNumber": "Room NB-206",
+      "photo": "/src/assets/images/avatar_sophia_vance.svg"
     },
     {
       "id": "USR-12",
@@ -685,7 +696,7 @@
       "totalCopies": 12,
       "availableCopies": 8,
       "shelfLocation": "Stack CS-04-A",
-      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "coverImage": "/src/assets/images/book_c_programming.svg",
       "qrCode": "CIQ-BOOK-BK-101-01"
     },
     {
@@ -698,7 +709,7 @@
       "totalCopies": 20,
       "availableCopies": 3,
       "shelfLocation": "Stack CS-01-C",
-      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "coverImage": "/src/assets/images/book_clrs_algorithms.svg",
       "qrCode": "CIQ-BOOK-BK-102-01"
     },
     {
@@ -711,7 +722,7 @@
       "totalCopies": 8,
       "availableCopies": 0,
       "shelfLocation": "Stack CS-08-B",
-      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "coverImage": "/src/assets/images/book_clean_code.svg",
       "qrCode": "CIQ-BOOK-BK-103-01"
     },
     {
@@ -724,7 +735,7 @@
       "totalCopies": 10,
       "availableCopies": 6,
       "shelfLocation": "Stack CS-05-D",
-      "coverImage": "/src/assets/images/campus_hero_aerial_1793080116992.jpg",
+      "coverImage": "/src/assets/images/book_head_first_design_patterns.svg",
       "qrCode": "CIQ-BOOK-BK-104-01"
     }
   ],
@@ -2085,6 +2096,28 @@
       "status": "Attendance Marked",
       "timestamp": "2026-10-27T17:19:30.698Z",
       "notes": "Course: CS601, Student: Aarav Sharma (241FA04001)"
+    },
+    {
+      "id": "LOG-1793256263510",
+      "token": "CIQ-HTICKET-241FA04001-SECURE",
+      "type": "Examination Hall Ticket",
+      "entityId": "HT-2026-8812",
+      "subjectName": "Aarav Sharma",
+      "verifiedBy": "College Administrator (Direct Console Verification)",
+      "status": "Valid Examination Ticket",
+      "timestamp": "2026-10-29T06:44:23.510Z",
+      "notes": "Roll: 241FA04001, Room: Room NB-101, Seat: Desk D-23 (Row 2, Col 3)"
+    },
+    {
+      "id": "LOG-1793256280266",
+      "token": "CIQ-HTICKET-241FA04001-SECURE",
+      "type": "Examination Hall Ticket",
+      "entityId": "HT-2026-8812",
+      "subjectName": "Aarav Sharma",
+      "verifiedBy": "College Administrator (Direct Console Verification)",
+      "status": "Valid Examination Ticket",
+      "timestamp": "2026-10-29T06:44:40.266Z",
+      "notes": "Roll: 241FA04001, Room: Room NB-101, Seat: Desk D-23 (Row 2, Col 3)"
     }
   ]
 }

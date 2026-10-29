@@ -193,9 +193,12 @@ export const EventsView: React.FC<EventsViewProps> = ({
                 {/* Image Banner */}
                 <div className="relative h-40 bg-stone-100 overflow-hidden">
                   <img
-                    src={event.bannerUrl || '/src/assets/images/campus_hero_aerial_1793080116992.jpg'}
+                    src={event.bannerUrl || '/src/assets/images/event_ai_robotics_hackathon.jpg'}
                     alt={event.title}
                     className="w-full h-full object-cover"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = '/src/assets/images/event_ai_robotics_hackathon.jpg';
+                    }}
                   />
                   <div className="absolute top-3 left-3 bg-stone-900/80 backdrop-blur-xs text-white text-[10px] font-semibold uppercase px-2 py-0.5 rounded">
                     {event.category}

@@ -249,17 +249,30 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               className="bg-white rounded-xl border border-stone-200 shadow-xs p-4 flex flex-col justify-between hover:border-emerald-600/40 transition-all group"
             >
               <div>
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-semibold text-emerald-800 bg-emerald-50 px-1.5 py-0.5 rounded">
-                    {book.category}
-                  </span>
-                  <span
-                    className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
-                      isAvailable ? 'bg-emerald-100 text-emerald-900' : 'bg-rose-100 text-rose-800'
-                    }`}
-                  >
-                    {book.availableCopies} / {book.totalCopies} Available
-                  </span>
+                {/* Book Cover Image */}
+                <div className="relative h-48 mb-3 rounded-lg overflow-hidden bg-stone-900 border border-stone-200/60 shadow-xs flex items-center justify-center">
+                  <img
+                    src={book.coverImage || '/src/assets/images/book_c_programming.svg'}
+                    alt={book.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onError={(e: any) => {
+                      e.target.src = '/src/assets/images/book_c_programming.svg';
+                    }}
+                  />
+                  <div className="absolute top-2 left-2">
+                    <span className="text-[10px] font-semibold text-white bg-stone-900/80 backdrop-blur-xs px-2 py-0.5 rounded shadow">
+                      {book.category}
+                    </span>
+                  </div>
+                  <div className="absolute top-2 right-2">
+                    <span
+                      className={`text-[10px] font-bold px-2 py-0.5 rounded shadow ${
+                        isAvailable ? 'bg-emerald-600 text-white' : 'bg-rose-600 text-white'
+                      }`}
+                    >
+                      {book.availableCopies} / {book.totalCopies} Available
+                    </span>
+                  </div>
                 </div>
 
                 <h4 className="text-xs font-bold text-stone-900 group-hover:text-emerald-900 transition-colors line-clamp-2 leading-tight">

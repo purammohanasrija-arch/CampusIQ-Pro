@@ -76,17 +76,17 @@ function getInitialDB(): DBData {
     currentUserRole: 'College Administrator',
     currentUserId: 'STU-2024-001',
     users: [
-      { id: 'USR-01', name: 'Dr. Sarah Jenkins', role: 'Super Administrator', email: 'director@campusiq.edu', department: 'Executive' },
-      { id: 'USR-02', name: 'Prof. Arthur Davies', role: 'College Administrator', email: 'dean@campusiq.edu', department: 'Academic Affairs' },
-      { id: 'USR-03', name: 'Dr. Elena Chen', role: 'Faculty', email: 'elena.chen@campusiq.edu', department: 'Computer Science' },
-      { id: 'USR-04', name: 'Aarav Sharma', role: 'Student', email: 'aarav.sharma@student.campusiq.edu', department: 'Computer Science' },
-      { id: 'USR-05', name: 'Marcus Bell', role: 'Librarian', email: 'library@campusiq.edu', department: 'Central Library' },
-      { id: 'USR-06', name: 'Vikram Mehta', role: 'Lab Technician', email: 'labtech@campusiq.edu', department: 'Robotics & IoT' },
-      { id: 'USR-07', name: 'Chef Mario Rossi', role: 'Canteen Staff', email: 'canteen@campusiq.edu', department: 'Campus Dining' },
-      { id: 'USR-08', name: 'Chief Jackson Reed', role: 'Security Staff', email: 'security@campusiq.edu', department: 'Campus Security' },
-      { id: 'USR-09', name: 'Priya Nambiar', role: 'Event Organizer', email: 'events@campusiq.edu', department: 'Student Council' },
-      { id: 'USR-10', name: 'Dr. Robert Thorne', role: 'Examination Staff', email: 'coe@campusiq.edu', department: 'Controller of Exams' },
-      { id: 'USR-11', name: 'Dr. Sophia Vance', role: 'Project Judge', email: 'sophia.vance@techpartner.com', department: 'Industry Advisory Board' }
+      { id: 'USR-01', name: 'Dr. Sarah Jenkins', role: 'Super Administrator', email: 'director@campusiq.edu', department: 'Executive', photo: '/src/assets/images/avatar_student_sarah_1793080117024.jpg' },
+      { id: 'USR-02', name: 'Prof. Arthur Davies', role: 'College Administrator', email: 'dean@campusiq.edu', department: 'Academic Affairs', photo: '/src/assets/images/avatar_dean_davies.svg' },
+      { id: 'USR-03', name: 'Dr. Elena Chen', role: 'Faculty', email: 'elena.chen@campusiq.edu', department: 'Computer Science', photo: '/src/assets/images/avatar_faculty_chen_1793080118249.jpg' },
+      { id: 'USR-04', name: 'Aarav Sharma', role: 'Student', email: 'aarav.sharma@student.campusiq.edu', department: 'Computer Science', photo: '/src/assets/images/student_aarav_sharma.jpg' },
+      { id: 'USR-05', name: 'Marcus Bell', role: 'Librarian', email: 'library@campusiq.edu', department: 'Central Library', photo: '/src/assets/images/avatar_marcus_bell.svg' },
+      { id: 'USR-06', name: 'Vikram Mehta', role: 'Lab Technician', email: 'labtech@campusiq.edu', department: 'Robotics & IoT', photo: '/src/assets/images/avatar_vikram_mehta.svg' },
+      { id: 'USR-07', name: 'Chef Mario Rossi', role: 'Canteen Staff', email: 'canteen@campusiq.edu', department: 'Campus Dining', photo: '/src/assets/images/avatar_chef_mario.svg' },
+      { id: 'USR-08', name: 'Chief Jackson Reed', role: 'Security Staff', email: 'security@campusiq.edu', department: 'Campus Security', photo: '/src/assets/images/avatar_chief_reed.svg' },
+      { id: 'USR-09', name: 'Priya Nambiar', role: 'Event Organizer', email: 'events@campusiq.edu', department: 'Student Council', photo: '/src/assets/images/avatar_priya_nambiar.svg' },
+      { id: 'USR-10', name: 'Dr. Robert Thorne', role: 'Examination Staff', email: 'coe@campusiq.edu', department: 'Controller of Exams', photo: '/src/assets/images/avatar_dr_thorne.svg' },
+      { id: 'USR-11', name: 'Dr. Sophia Vance', role: 'Project Judge', email: 'sophia.vance@techpartner.com', department: 'Industry Advisory Board', photo: '/src/assets/images/avatar_sophia_vance.svg' }
     ],
     students: [
       {
@@ -582,7 +582,7 @@ function getInitialDB(): DBData {
         totalCopies: 12,
         availableCopies: 8,
         shelfLocation: 'Stack CS-04-A',
-        coverImage: '/src/assets/images/campus_hero_aerial_1793080116992.jpg',
+        coverImage: '/src/assets/images/book_c_programming.svg',
         qrCode: 'CIQ-BOOK-BK-101-01'
       },
       {
@@ -595,7 +595,7 @@ function getInitialDB(): DBData {
         totalCopies: 20,
         availableCopies: 3,
         shelfLocation: 'Stack CS-01-C',
-        coverImage: '/src/assets/images/campus_hero_aerial_1793080116992.jpg',
+        coverImage: '/src/assets/images/book_clrs_algorithms.svg',
         qrCode: 'CIQ-BOOK-BK-102-01'
       },
       {
@@ -608,7 +608,7 @@ function getInitialDB(): DBData {
         totalCopies: 8,
         availableCopies: 0,
         shelfLocation: 'Stack CS-08-B',
-        coverImage: '/src/assets/images/campus_hero_aerial_1793080116992.jpg',
+        coverImage: '/src/assets/images/book_clean_code.svg',
         qrCode: 'CIQ-BOOK-BK-103-01'
       },
       {
@@ -621,7 +621,7 @@ function getInitialDB(): DBData {
         totalCopies: 10,
         availableCopies: 6,
         shelfLocation: 'Stack CS-05-D',
-        coverImage: '/src/assets/images/campus_hero_aerial_1793080116992.jpg',
+        coverImage: '/src/assets/images/book_head_first_design_patterns.svg',
         qrCode: 'CIQ-BOOK-BK-104-01'
       }
     ],
@@ -2272,7 +2272,10 @@ app.post('/api/library/books', (req: Request, res: Response) => {
     totalCopies: copies,
     availableCopies: copies,
     shelfLocation: shelfLocation || 'Stack CS-02-B',
-    coverImage: '/src/assets/images/campus_hero_aerial_1793080116992.jpg',
+    coverImage: (title && title.toLowerCase().includes('algorithm')) ? '/src/assets/images/book_clrs_algorithms.svg'
+      : (title && (title.toLowerCase().includes('code') || title.toLowerCase().includes('software'))) ? '/src/assets/images/book_clean_code.svg'
+      : (title && (title.toLowerCase().includes('pattern') || title.toLowerCase().includes('design'))) ? '/src/assets/images/book_head_first_design_patterns.svg'
+      : '/src/assets/images/book_c_programming.svg',
     qrCode: generateToken('BOOK', id)
   };
   db.books.push(newBook);
@@ -3112,6 +3115,37 @@ Format your responses with clean sections:
 - Given your profile in **${student.course}**, mastering asynchronous Rust, gRPC protocols, and GPU tensor profiling will place you in the top 5% of candidate pools.`;
 
   res.json({ success: true, reply: fallbackAdvice, source: 'campus-intelligence-engine' });
+});
+
+// Static asset handlers for images across all supported URL paths (works in dev and production)
+const imagesDir = path.resolve(process.cwd(), 'src', 'assets', 'images');
+const publicDir = path.resolve(process.cwd(), 'public');
+
+app.use('/src/assets/images', express.static(imagesDir));
+app.use('/assets/images', express.static(imagesDir));
+app.use('/images', express.static(imagesDir));
+
+if (fs.existsSync(publicDir)) {
+  app.use(express.static(publicDir));
+  app.use('/src/assets/images', express.static(path.resolve(publicDir, 'src', 'assets', 'images')));
+  app.use('/assets/images', express.static(path.resolve(publicDir, 'assets', 'images')));
+  app.use('/images', express.static(path.resolve(publicDir, 'images')));
+}
+
+// Fallback handler for missing image requests so they NEVER return index.html
+app.get(['/src/assets/images/*', '/assets/images/*', '/images/*'], (req: Request, res: Response) => {
+  const reqFile = path.basename(req.path);
+  const directPath = path.join(imagesDir, reqFile);
+  if (fs.existsSync(directPath)) {
+    return res.sendFile(directPath);
+  }
+  res.status(404).type('image/svg+xml').send(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+      <rect width="120" height="120" rx="16" fill="#e2e8f0"/>
+      <path d="M40 75 L55 55 L70 70 L80 60 L95 75 Z" fill="#94a3b8"/>
+      <circle cx="50" cy="45" r="8" fill="#94a3b8"/>
+    </svg>`
+  );
 });
 
 // Start dev server with Vite or production static handler
